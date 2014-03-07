@@ -1,0 +1,34 @@
+Package: com.xtm3x.noblur
+Version: 0.0.6-1
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 208
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/noblur.deb
+Size: 44634
+MD5sum: 0b82f50655115d177d2f4b42c617fe37
+SHA1: c272f2cfca89ae69e917ce2e124417f8aa589dab
+SHA256: 720af67c3d325a34a5e56ae1b4fe65ebb2a492d7cfd96483bf4f531ba8b7b5b8
+Section: Tweaks
+Description: A tweak that disables the lockscreen blur feature
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.appspot.com/depics/noblur.html
+Name: NoBlur
+
+Package: com.xtm3x.sixbar
+Version: 0.0.2-8
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 188
+Depends: mobilesubstrate
+Filename: ./debs/sixbar.deb
+Size: 34300
+MD5sum: 42e8e66234f321fde1439502b9fb6248
+SHA1: 3e47eb23b21aabfc4bac847f78602d19fd9be330
+SHA256: c188bd1875923de5b3d5e0e42cbbb23f202ee0478bbfd3c6b89048c0560e3ad8
+Section: Tweaks
+Description: Bring back the old iOS 6 Status Bar
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.appspot.com/depics/sixbar.html
+Name: SixBar
+
