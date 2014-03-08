@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = NoBlur;
+	cell = PSLinkCell;
+	detail = NoBlurListController;
+	icon = NoBlur.png;
+	isController = 1;
+	label = NoBlur;
+    };
+}

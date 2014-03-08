@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = sixbar;
+		cell = PSLinkCell;
+		detail = sixbarListController;
+		icon = "SixBar.png";
+		isController = 1;
+		label = SixBar;
+	};
+}

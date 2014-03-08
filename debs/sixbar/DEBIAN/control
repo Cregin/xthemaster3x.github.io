@@ -1,0 +1,11 @@
+Package: com.xtm3x.sixbar
+Name: SixBar
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Description: Bring back the old iOS 6 Status Bar
+Maintainer: xTheMaster3x
+Author: xTheMaster3x
+Section: Tweaks
+Version: 0.0.2-8
+Depiction: http://repo.tm3dev.com/depics/sixbar.html
+Installed-Size: 188

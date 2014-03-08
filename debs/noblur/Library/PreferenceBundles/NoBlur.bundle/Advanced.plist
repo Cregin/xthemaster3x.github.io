@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Lockscreen</string>
+			<key>footerText</key>
+			<string>Change slider value to adjust darkness.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.xtm3x.noblur~prefs</string>
+			<key>key</key>
+			<string>doesTint</string>
+			<key>label</key>
+			<string>Dark Mode</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>0.0</real>
+			<key>defaults</key>
+			<string>com.xtm3x.noblur~prefs</string>
+			<key>key</key>
+			<string>tintf</string>
+			<key>max</key>
+			<real>1.0</real>
+			<key>min</key>
+			<real>0.0</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>App Switcher</string>
+			<key>footerText</key>
+			<string>Removes blur in app switcher.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.xtm3x.noblur~prefs</string>
+			<key>key</key>
+			<string>appSwitch</string>
+			<key>label</key>
+			<string>DisaBlur</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Options</string>
+</dict>
+</plist>
