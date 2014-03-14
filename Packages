@@ -16,19 +16,18 @@ Depiction: http://repo.tm3dev.com/depics/noblur.html
 Name: NoBlur
 
 Package: com.xtm3x.sixbar
-Version: 0.0.2-33
+Version: 0.0.2-22
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 192
 Depends: mobilesubstrate
 Filename: ./debs/sixbar.deb
-Size: 36340
-MD5sum: cdec443a4a32cc7c03fc5d0125f12daa
-SHA1: dc2f20ab9e92cde1b401c0c7967c33918cbd071d
-SHA256: 6098282dd86228cbae71e141ed584d55131e4109b9edc8bb1eba886bb0b9688c
+Size: 35560
+MD5sum: f2603cf1ad4e05fadd282907a3585d9e
+SHA1: 4b37ac4005598438c74016ec47b4edc14e9b601a
+SHA256: 563c2043b3d7f5ab353971f34783a06a8bbc3d670b5babe95f0c07d7c5f698fe
 Section: Tweaks
 Description: Bring back the old iOS 6 Status Bar
 Author: xTheMaster3x
-Depiction: http://repo.tm3dev.com/depics/sixbar.html
 Name: SixBar
 
