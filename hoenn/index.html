@@ -1,0 +1,98 @@
+<HTML>
+<HEAD>
+<TITLE>Trumpets</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+// AUTHOR:          Patrick Fairfield
+//                    www.FairfieldConsulting.com   
+//                    Based heavily on:
+//                    Maxim V. Kollegov, All Rights Reserved.
+//              http://www.geocities.com/SiliconValley/Lakes/8620
+//              Modified with permission by Joe Hage - Team ScriptBuilder
+//              Feel free to reuse this code provided you include this
+//              AUTHOR section in your pages.
+// DESC:        Display a ticking countdown clock on your web page.
+// Sample HTML: COUNTDOWN.HTML
+// PLATFORMS:   Netscape Navigator 3.0 and higher,
+//                   Microsoft Internet Explorer 3.02 and higher
+// ======================================================================
+//change your event date event here.
+
+var eventdate = new Date("November 1, 2014 00:00:00");
+
+function toSt(n) {
+ s=""
+ if(n<10) s+="0"
+ return s+n.toString();
+}
+
+function countdown() {
+ cl=document.clock;
+ d=new Date();
+ count=Math.floor((eventdate.getTime()-d.getTime())/1000);
+ if(count<=0)
+   {cl.days.value ="----";
+    cl.hours.value="--";
+    cl.mins.value="--";
+    cl.secs.value="--";
+    return;
+  }
+ cl.secs.value=toSt(count%60);
+ count=Math.floor(count/60);
+ cl.mins.value=toSt(count%60);
+ count=Math.floor(count/60);
+ cl.hours.value=toSt(count%24);
+ count=Math.floor(count/24);
+ cl.days.value=count;    
+ 
+ setTimeout("countdown()",500);
+}
+// end hiding script-->
+</SCRIPT>
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#0000A0" ALINK="#FF0000" VLINK="#800000" onLoad="countdown()">
+
+<!-- Insert HTML here -->
+
+
+<FONT FACE="arial, helvetica" SIZE="-1">
+<H2 ALIGN=CENTER><FONT FACE="arial, helvetica" COLOR="#800000">Countdown to Hoenn</FONT></H2>
+<CENTER>
+<P>
+<FORM name="clock">
+<TABLE BORDER=5 CELLSPACING=5 CELLPADDING=0 BGCOLOR="#000000">
+    <TR>
+         <TD ALIGN=CENTER WIDTH="31%" BGCOLOR="#000080"><FONT COLOR="#FFFFFF"><B>Days:</B></FONT></TD>
+         <TD ALIGN=CENTER WIDTH="23%" BGCOLOR="#000080"><FONT COLOR="#FFFFFF"><B>Hours:</B></FONT></TD>
+         <TD ALIGN=CENTER WIDTH="23%" BGCOLOR="#000080"><FONT COLOR="#FFFFFF"><B>Mins:</B></FONT></TD>
+         <TD ALIGN=CENTER WIDTH="23%" BGCOLOR="#000080"><FONT COLOR="#FFFFFF"><B>Secs:</B></FONT></TD>
+    </TR>
+    <TR>
+         <TD ALIGN=CENTER><INPUT name="days" size=4></TD>
+         <TD ALIGN=CENTER><INPUT name="hours" size=2></TD>
+         <TD ALIGN=CENTER><INPUT name="mins" size=2></TD>
+         <TD ALIGN=CENTER><INPUT name="secs" size=2></TD>
+    </TR>
+    <TR>
+         <TD COLSPAN="4" BGCOLOR="#000080">
+              <CENTER><P><FONT FACE="arial,helvetica" SIZE="+2" COLOR="#FFFF00">Until</FONT></CENTER>
+         </TD>
+    </TR>
+    <TR>
+         <TD COLSPAN="4" BGCOLOR="#000000">
+              <CENTER><P><FONT COLOR="#00FF00" SIZE=+1>
+              <SCRIPT LANGUAGE="JavaScript">
+              <!--
+              document.write(" " + eventdate.toLocaleString() + " ");
+              // end hiding script-->
+              </SCRIPT>
+              </FONT>
+              </CENTER>
+         </TD>
+    </TR>
+</TABLE>
+</FORM>
+</CENTER>
+</BODY>
+</HTML>
