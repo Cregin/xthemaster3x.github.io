@@ -1,0 +1,66 @@
+Package: com.xtm3x.apple.wwdc20
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
+Filename: ./debs/WWDC.deb
+Size: 4253482
+MD5sum: 3245954b70d0821d57660c3ff8e3caed
+SHA1: aa8efa6eba11374268efa3700884919428ed7f31
+SHA256: 8c08fe1c8bec50fd28b9d75222b115d733630e7f1487a216957c5acf8b756cdd
+Section: Site-Specific Apps
+Homepage: http://repo.tm3dev.com/
+Description: The WWDC 2014 app for iOS 7.0.x devices
+Author: xTheMaster3x <xtm3xyt@gmail.com>
+Name: WWDC 2014
+
+Package: com.xtm3x.noblur
+Version: 0.0.7-3
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 208
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.xtm3x.noblur_0.0.7-3_iphoneos-arm.deb
+Size: 44386
+MD5sum: 0e2ee6babcce1fa0dd395caed3bc1edd
+SHA1: a9ced877a7dc8a654f80c5746f252712a7fb8ff6
+SHA256: 8eb5d33c9dfa9064d7ff0be5ed44c45d100c9dbb924f76d1ace05c4b52613a96
+Section: Tweaks
+Description: A tweak that disables the lockscreen blur feature
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/noblur.html
+Name: NoBlur
+
+Package: com.xtm3x.sixbar
+Version: 0.0.4-36
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 208
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.sixbar_0.0.4-36_iphoneos-arm.deb
+Size: 45066
+MD5sum: 4ea07563d7e669b5d63521cb53fee934
+SHA1: e243eaeec9a58521765ea084098136d70a031f3f
+SHA256: 777d59db8833a433483d50b403c03dd4396b4ee460cf582a13bf21e539788d17
+Section: Tweaks
+Description: Bring back the old iOS 6 Status Bar
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/sixbar.html
+Name: SixBar
+
+Package: com.xtm3x.titlehide
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.titlehide_0.0.1-2_iphoneos-arm.deb
+Size: 4122
+MD5sum: 57e93a1c799d238348a785c623adec6f
+SHA1: 0c7384f550764440feae788435225b4054f21b08
+SHA256: 4063de458287cf415af9c5d0b9821f1ae17edbff9f5516bb1f66751eb51325ff
+Section: Tweaks
+Description: Hide your folder titles
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/titlehide.html
+Name: TitleHide
+
