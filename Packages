@@ -1,18 +1,3 @@
-Package: com.xtm3x.apple.wwdc20
-Version: 2.0
-Architecture: iphoneos-arm
-Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
-Filename: ./debs/WWDC.deb
-Size: 4710226
-MD5sum: 5862ddd459081336a97b4f2d6bb86899
-SHA1: 45105859e93e0bdcb830571aaeee4dd781cf166c
-SHA256: 63fe1b46fd34d14d472bb52a58d733abb3f017ea615b054a414147cfe5abc8ca
-Section: Site-Specific Apps
-Homepage: http://repo.tm3dev.com/
-Description: The WWDC 2014 app for iOS 7.0.x devices
-Author: xTheMaster3x <xtm3xyt@gmail.com>
-Name: WWDC 2014
-
 Package: com.xtm3x.noblur
 Version: 0.0.7-3
 Architecture: iphoneos-arm
