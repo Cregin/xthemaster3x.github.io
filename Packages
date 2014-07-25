@@ -1,19 +1,19 @@
 Package: com.xtm3x.noblur
-Version: 0.0.7-3
+Version: 0.0.8-6
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 208
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.xtm3x.noblur_0.0.7-3_iphoneos-arm.deb
-Size: 44386
-MD5sum: 0e2ee6babcce1fa0dd395caed3bc1edd
-SHA1: a9ced877a7dc8a654f80c5746f252712a7fb8ff6
-SHA256: 8eb5d33c9dfa9064d7ff0be5ed44c45d100c9dbb924f76d1ace05c4b52613a96
+Filename: ./debs/com.xtm3x.noblur_0.0.8-6_iphoneos-arm.deb
+Size: 43134
+MD5sum: 0a58436fd85f8827c51fe8d32c1c362e
+SHA1: aa478e3fedc993e152ced3745f45b22cef39934d
+SHA256: fdf8ad8db71d81340309a7738bef2e5a81f826f6b7a609c57bad9315d6d09e65
 Section: Tweaks
-Description: A tweak that disables the lockscreen blur feature
+Description: A tweak that modifies iOS 7's Blur
 Author: xTheMaster3x
 Depiction: http://repo.tm3dev.com/depics/noblur.html
-Name: NoBlur
+Name: EXTREME BETA NoBlur!
 
 Package: com.xtm3x.sixbar
 Version: 0.0.4-36
