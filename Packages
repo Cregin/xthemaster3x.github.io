@@ -1,14 +1,14 @@
 Package: com.xtm3x.noblur
-Version: 0.0.8-6
+Version: 0.0.8-28
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
-Installed-Size: 208
+Installed-Size: 212
 Depends: mobilesubstrate, preferenceloader
-Filename: ./debs/com.xtm3x.noblur_0.0.8-6_iphoneos-arm.deb
-Size: 43134
-MD5sum: 0a58436fd85f8827c51fe8d32c1c362e
-SHA1: aa478e3fedc993e152ced3745f45b22cef39934d
-SHA256: fdf8ad8db71d81340309a7738bef2e5a81f826f6b7a609c57bad9315d6d09e65
+Filename: ./debs/com.xtm3x.noblur_0.0.8-28_iphoneos-arm.deb
+Size: 46256
+MD5sum: 92a02a64331c0b9e4366e72e5463bf05
+SHA1: a8adea280d0364fbc3aea5b8ff54d41b297fd08d
+SHA256: 58aeabc80cbc811dd3fa77166bdbed96d247fd09f6cf638f5feec8ce6d6a71a8
 Section: Tweaks
 Description: A tweak that modifies iOS 7's Blur
 Author: xTheMaster3x
