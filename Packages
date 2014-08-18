@@ -16,16 +16,16 @@ Depiction: http://repo.tm3dev.com/depics/noblur.html
 Name: EXTREME BETA NoBlur!
 
 Package: com.xtm3x.sixbar
-Version: 0.0.4-36
+Version: 0.0.4-60
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 208
 Depends: mobilesubstrate
-Filename: ./debs/com.xtm3x.sixbar_0.0.4-36_iphoneos-arm.deb
-Size: 45066
-MD5sum: 4ea07563d7e669b5d63521cb53fee934
-SHA1: e243eaeec9a58521765ea084098136d70a031f3f
-SHA256: 777d59db8833a433483d50b403c03dd4396b4ee460cf582a13bf21e539788d17
+Filename: ./debs/com.xtm3x.sixbar_0.0.4-60_iphoneos-arm.deb
+Size: 45798
+MD5sum: 76816b8942f05dbe98c6326cae121164
+SHA1: 97166508021535a039a953f43f9b9cd1ed46dff2
+SHA256: b441b688fcfbc7f24b41c7236d3fa34f8fe878a424a6ba0cb27367b6cb1faec8
 Section: Tweaks
 Description: Bring back the old iOS 6 Status Bar
 Author: xTheMaster3x
