@@ -15,6 +15,23 @@ Author: xTheMaster3x
 Depiction: http://repo.tm3dev.com/depics/noblur.html
 Name: NoBlur
 
+Package: com.xtm3x.nolabels
+Version: 1.0-4
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 72
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.nolabels_1.0-4_iphoneos-arm.deb
+Size: 3580
+MD5sum: 31ced779ed08ceac3d7964094e9793ac
+SHA1: 16deb8f00b6a8ec07897e9ff6f94e7939944c65b
+SHA256: b46f383afd74a43b916d4864869b649f98a187d8098143e166ad25c1ba82a111
+Section: Tweaks
+Description: Removes the springboard icon labels
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/nolabels.html
+Name: NoLabels
+
 Package: com.xtm3x.sixbar
 Version: 0.0.4-60
 Architecture: iphoneos-arm
