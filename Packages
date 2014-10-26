@@ -1,20 +1,3 @@
-Package: com.xtm3x.noblur
-Version: 1.1.1-1
-Architecture: iphoneos-arm
-Maintainer: xTheMaster3x
-Installed-Size: 276
-Depends: mobilesubstrate, preferenceloader, applist
-Filename: ./debs/com.xtm3x.noblur_1.1.1-1_iphoneos-arm.deb
-Size: 49762
-MD5sum: 570e02fca4d90c07501c8ebcafc46881
-SHA1: 8b650c6e557a5d28ae718f316e9191bb7668c20d
-SHA256: 31da1d5f9278e7dfbc252271fd49abe833ee65f7b00a3ab3459a3bac6f431d0a
-Section: Tweaks
-Description: A tweak that removes the blur effect in iOS 7+
-Author: xTheMaster3x
-Depiction: http://repo.tm3dev.com/depics/noblur.html
-Name: NoBlur
-
 Package: com.xtm3x.nolabels
 Version: 1.0-4
 Architecture: iphoneos-arm
@@ -31,6 +14,23 @@ Description: Removes the springboard icon labels
 Author: xTheMaster3x
 Depiction: http://repo.tm3dev.com/depics/nolabels.html
 Name: NoLabels
+
+Package: com.xtm3x.reachall
+Version: 0.0.1-58
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 312
+Depends: mobilesubstrate, libactivator (>= 1.9.1~beta1)
+Filename: ./debs/com.xtm3x.reachall_0.0.1-58_iphoneos-arm.deb
+Size: 39880
+MD5sum: d4721f376c0191ac8c9e7eec5b238632
+SHA1: e076ccdc8fcde1e68e4a6a52509654ff0874fd0e
+SHA256: ce3cb0e30c087a652fd3d4e7c25bc8df96a4bba335f61ba58e24c03e741ef2a5
+Section: Tweaks
+Description: Reachability on all iOS 8 devices.
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/reach.html
+Name: ReachAll
 
 Package: com.xtm3x.sixbar
 Version: 0.0.4-60
