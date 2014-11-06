@@ -13,19 +13,16 @@
 
 			}
 	</style>
-  	<link rel="import" href="http://repo.tm3dev.com/depics/message.html">
+  	<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script> 
+	<script> 
+	$(function(){
+	  $("#message").load("repo.tm3dev.com/depics/message.html"); 
+	});
+	</script> 
 </head>
 <body>
 <panel>
-<script>
-    var link = document.querySelector('link[rel="import"]');
-    var content = link.import;
-
-    // Grab DOM from warning.html's document.
-    var el = content.querySelector('.message');
-
-    document.body.appendChild(el.cloneNode(true));
-</script>
+<div id="message"></div>
 <label>Info</label>
 <block>
 <p>Customize options in settings.</p>
