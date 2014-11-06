@@ -13,10 +13,19 @@
 
 			}
 	</style>
+  	<link rel="import" href="message.html">
 </head>
 <body>
 <panel>
-<!--#include virtual="message.html" -->
+<script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+
+    // Grab DOM from warning.html's document.
+    var el = content.querySelector('.message');
+
+    document.body.appendChild(el.cloneNode(true));
+</script>
 <label>Info</label>
 <block>
 <p>Customize options in settings.</p>
