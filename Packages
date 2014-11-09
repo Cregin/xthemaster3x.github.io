@@ -49,6 +49,22 @@ Author: xTheMaster3x
 Depiction: http://repo.tm3dev.com/depics/reach.html
 Name: ReachAll
 
+Package: com.xtm3x.replaceblur
+Version: 0.0.1-3
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.replaceblur_0.0.1-3_iphoneos-arm.deb
+Size: 3874
+MD5sum: 68c34859970eb125a7bc76e0e0c7c6fa
+SHA1: 585b0c339e1db745e3b4588caf42f71c2a1fd907
+SHA256: ef8f7a2f2e5acb2336e3abb077cb82012b32cd46bfc159a43dc729a8cc21ac87
+Section: Tweaks
+Description: Replace wallpaper blurs.
+Author: xTheMaster3x
+Name: ReplaceBlur
+
 Package: com.xtm3x.sixbar
 Version: 0.0.4-60
 Architecture: iphoneos-arm
