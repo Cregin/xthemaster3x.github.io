@@ -4,11 +4,16 @@ Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 324
 Depends: mobilesubstrate, preferenceloader, applist
-Filename: .//debs/com.xtm3x.noblur_1.2-32_iphoneos-arm.deb
+Filename: ./debs/com.xtm3x.noblur_1.2-32_iphoneos-arm.deb
 Size: 42794
 MD5sum: 07869208789cd709247ff02728732e4b
+SHA1: f7d87c3914609d4a1193a13298793a98cf61f5f8
+SHA256: 8df403d622a0e66964d68f828b8c90b0b20f9681740f6fc4e03ee9e30d2acd09
 Section: Tweaks
 Description: A tweak that removes the blur effect in iOS 7+
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/noblur.html
+Name: NoBlur
 
 Package: com.xtm3x.nolabels
 Version: 1.0-4
@@ -16,11 +21,16 @@ Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: .//debs/com.xtm3x.nolabels_1.0-4_iphoneos-arm.deb
+Filename: ./debs/com.xtm3x.nolabels_1.0-4_iphoneos-arm.deb
 Size: 3580
 MD5sum: 31ced779ed08ceac3d7964094e9793ac
+SHA1: 16deb8f00b6a8ec07897e9ff6f94e7939944c65b
+SHA256: b46f383afd74a43b916d4864869b649f98a187d8098143e166ad25c1ba82a111
 Section: Tweaks
 Description: Removes the springboard icon labels
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/nolabels.html
+Name: NoLabels
 
 Package: com.xtm3x.reachall
 Version: 0.0.2-41
@@ -28,11 +38,16 @@ Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 404
 Depends: mobilesubstrate, libactivator (>= 1.9.1~beta1)
-Filename: .//debs/com.xtm3x.reachall_0.0.2-41_iphoneos-arm.deb
+Filename: ./debs/com.xtm3x.reachall_0.0.2-41_iphoneos-arm.deb
 Size: 62486
 MD5sum: dd1cc31708a4a2ce9dab9202b96873aa
+SHA1: f7940eb88ab0d8a9e8a52fb4d0ecf4b487e90be1
+SHA256: ba13e9200f69d9e7577c4fc215d39a7ec1ffbf9c86bab47e2cbe447b7453da87
 Section: Tweaks
 Description: Reachability on all iOS 8 devices.
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/reach.html
+Name: ReachAll
 
 Package: com.xtm3x.replaceblur
 Version: 0.0.1-3
@@ -40,11 +55,15 @@ Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 136
 Depends: mobilesubstrate
-Filename: .//debs/com.xtm3x.replaceblur_0.0.1-3_iphoneos-arm.deb
+Filename: ./debs/com.xtm3x.replaceblur_0.0.1-3_iphoneos-arm.deb
 Size: 3874
 MD5sum: 68c34859970eb125a7bc76e0e0c7c6fa
+SHA1: 585b0c339e1db745e3b4588caf42f71c2a1fd907
+SHA256: ef8f7a2f2e5acb2336e3abb077cb82012b32cd46bfc159a43dc729a8cc21ac87
 Section: Tweaks
 Description: Replace wallpaper blurs.
+Author: xTheMaster3x
+Name: ReplaceBlur
 
 Package: com.xtm3x.sixbar
 Version: 0.0.4-60
@@ -52,11 +71,16 @@ Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 208
 Depends: mobilesubstrate
-Filename: .//debs/com.xtm3x.sixbar_0.0.4-60_iphoneos-arm.deb
+Filename: ./debs/com.xtm3x.sixbar_0.0.4-60_iphoneos-arm.deb
 Size: 45798
 MD5sum: 76816b8942f05dbe98c6326cae121164
+SHA1: 97166508021535a039a953f43f9b9cd1ed46dff2
+SHA256: b441b688fcfbc7f24b41c7236d3fa34f8fe878a424a6ba0cb27367b6cb1faec8
 Section: Tweaks
 Description: Bring back the old iOS 6 Status Bar
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/sixbar.html
+Name: SixBar
 
 Package: com.xtm3x.sleekkey
 Version: 1.0-1
@@ -64,11 +88,16 @@ Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: .//debs/com.xtm3x.sleekkey_1.0-1_iphoneos-arm.deb
+Filename: ./debs/com.xtm3x.sleekkey_1.0-1_iphoneos-arm.deb
 Size: 4114
 MD5sum: 7872ed0658574a34c3b17e172890dbbc
+SHA1: 67d709202e939c5c0e6189f027a7fcb865d8536d
+SHA256: 4074a05fdc2afc0230b772d6ac2476e580e7fa382dbe0f9cea448f54f6070d8f
 Section: Tweaks
 Description: Removes the background on system keys.
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/sleekkey.html
+Name: SleekKey
 
 Package: com.xtm3x.titlehide
 Version: 0.0.1-2
@@ -76,9 +105,14 @@ Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 72
 Depends: mobilesubstrate
-Filename: .//debs/com.xtm3x.titlehide_0.0.1-2_iphoneos-arm.deb
+Filename: ./debs/com.xtm3x.titlehide_0.0.1-2_iphoneos-arm.deb
 Size: 4122
 MD5sum: 57e93a1c799d238348a785c623adec6f
+SHA1: 0c7384f550764440feae788435225b4054f21b08
+SHA256: 4063de458287cf415af9c5d0b9821f1ae17edbff9f5516bb1f66751eb51325ff
 Section: Tweaks
 Description: Hide your folder titles
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/titlehide.html
+Name: TitleHide
 
