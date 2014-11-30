@@ -23,17 +23,16 @@ Section: Tweaks
 Description: Removes the springboard icon labels
 
 Package: com.xtm3x.reachall
-Version: 0.0.2-40
+Version: 0.0.2-41
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 404
 Depends: mobilesubstrate, libactivator (>= 1.9.1~beta1)
-Filename: .//debs/com.xtm3x.reachall_0.0.2-40_iphoneos-arm.deb
-Size: 62514
-MD5sum: 3d481db23ad40c9924607afd06c4e874
+Filename: .//debs/com.xtm3x.reachall_0.0.2-41_iphoneos-arm.deb
+Size: 62486
+MD5sum: dd1cc31708a4a2ce9dab9202b96873aa
 Section: Tweaks
 Description: Reachability on all iOS 8 devices.
-Tag: cydia::commercial, purpose::extension
 
 Package: com.xtm3x.replaceblur
 Version: 0.0.1-3
