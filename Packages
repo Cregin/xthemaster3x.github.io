@@ -1,3 +1,19 @@
+Package: com.jackhaal.noannoyingsounds
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
+Depends: mobilesubstrate, winterboard
+Filename: ./debs/NoAnnoyingSounds.deb
+Size: 966
+MD5sum: 1c22acbf69bc389fd72d12c5125eac8c
+SHA1: 32e61faa29368ad05ea6e0368eb5508f49eb64d1
+SHA256: 81abedb16487f228d576c5d21f9a8d748c08f05b3ac504db6799ffd6d2861862
+Section: Themes
+Description: Remove those annoying sounds.
+Author: JackHaal <j4ckhaal@gmail.com>
+Depiction: http://repo.tm3dev.com/depics/sounds.html
+Name: NoAnnoyingSounds
+
 Package: com.xtm3x.noblur
 Version: 1.2-32
 Architecture: iphoneos-arm
@@ -33,16 +49,16 @@ Depiction: http://repo.tm3dev.com/depics/nolabels.html
 Name: NoLabels
 
 Package: com.xtm3x.reachall
-Version: 0.0.2-41
+Version: 0.0.2-42
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 404
 Depends: mobilesubstrate, libactivator (>= 1.9.1~beta1)
-Filename: ./debs/com.xtm3x.reachall_0.0.2-41_iphoneos-arm.deb
-Size: 62486
-MD5sum: dd1cc31708a4a2ce9dab9202b96873aa
-SHA1: f7940eb88ab0d8a9e8a52fb4d0ecf4b487e90be1
-SHA256: ba13e9200f69d9e7577c4fc215d39a7ec1ffbf9c86bab47e2cbe447b7453da87
+Filename: ./debs/com.xtm3x.reachall_0.0.2-42_iphoneos-arm.deb
+Size: 62494
+MD5sum: cc8b00e3543dab945e94013e6160e1c7
+SHA1: 775617023fcd984dc79a1b9e5967ea19fe5711f5
+SHA256: 06ba4a3e7b2df5aec1028550c626846634e127708b54f570c97e6babd066766e
 Section: Tweaks
 Description: Reachability on all iOS 8 devices.
 Author: xTheMaster3x
