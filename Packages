@@ -1,18 +1,34 @@
 Package: com.jackhaal.noannoyingsounds
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
 Depends: mobilesubstrate, winterboard
-Filename: ./debs/NoAnnoyingSounds.deb
-Size: 966
-MD5sum: 1c22acbf69bc389fd72d12c5125eac8c
-SHA1: 32e61faa29368ad05ea6e0368eb5508f49eb64d1
-SHA256: 81abedb16487f228d576c5d21f9a8d748c08f05b3ac504db6799ffd6d2861862
+Filename: ./debs/com.jackhaal.noannoyingsounds_1.1_iphoneos-arm.deb
+Size: 1142
+MD5sum: 355118ad0425bc3a740ee6f7a895ee27
+SHA1: 67ba516bb0d37080065a3b2423019ed1ce4f6e64
+SHA256: 17f1e91df0b0fd2f4c4fd32d0d80dcad96083be5a8c68d4f2df95b514bb363cc
 Section: Themes
 Description: Remove those annoying sounds.
 Author: JackHaal <j4ckhaal@gmail.com>
 Depiction: http://repo.tm3dev.com/depics/sounds.html
 Name: NoAnnoyingSounds
+
+Package: com.xtm3x.bork
+Version: 0.0.1-22
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.bork_0.0.1-22_iphoneos-arm.deb
+Size: 48454
+MD5sum: b7acf0d1b56c8fb55aa47441c8153dd4
+SHA1: 834bcc65c26a9de003ae856abd0cc2ed4bc0e28e
+SHA256: 552f3cad12e21724908ee0671a4e465af5d1fcf8d78ce6be59d87bc37c2dfade
+Section: Toys
+Description: Why did I make this...
+Author: xTheMaster3x
+Name: Börk
 
 Package: com.xtm3x.noblur
 Version: 1.2-32
