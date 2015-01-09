@@ -1,19 +1,3 @@
-Package: com.jackhaal.noannoyingsounds
-Version: 1.1
-Architecture: iphoneos-arm
-Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
-Depends: mobilesubstrate, winterboard
-Filename: ./debs/com.jackhaal.noannoyingsounds_1.1_iphoneos-arm.deb
-Size: 1142
-MD5sum: 355118ad0425bc3a740ee6f7a895ee27
-SHA1: 67ba516bb0d37080065a3b2423019ed1ce4f6e64
-SHA256: 17f1e91df0b0fd2f4c4fd32d0d80dcad96083be5a8c68d4f2df95b514bb363cc
-Section: Themes
-Description: Remove those annoying sounds.
-Author: JackHaal <j4ckhaal@gmail.com>
-Depiction: http://repo.tm3dev.com/depics/sounds.html
-Name: NoAnnoyingSounds
-
 Package: com.xtm3x.bork
 Version: 0.0.1-22
 Architecture: iphoneos-arm
@@ -31,16 +15,16 @@ Author: xTheMaster3x
 Name: Börk
 
 Package: com.xtm3x.noblur
-Version: 1.2-32
+Version: 1.2-41
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
-Installed-Size: 324
+Installed-Size: 328
 Depends: mobilesubstrate, preferenceloader, applist
-Filename: ./debs/com.xtm3x.noblur_1.2-32_iphoneos-arm.deb
-Size: 42794
-MD5sum: 07869208789cd709247ff02728732e4b
-SHA1: f7d87c3914609d4a1193a13298793a98cf61f5f8
-SHA256: 8df403d622a0e66964d68f828b8c90b0b20f9681740f6fc4e03ee9e30d2acd09
+Filename: ./debs/com.xtm3x.noblur_1.2-41_iphoneos-arm.deb
+Size: 43672
+MD5sum: 129029cd7a94191863908f1590e57b04
+SHA1: a581781026a97865f0f8003be47855eaa24a1ecf
+SHA256: e66354f764e5ba38ddc81211cfbef3949c1f9c2cc8c4b19b072def9009d936bf
 Section: Tweaks
 Description: A tweak that removes the blur effect in iOS 7+
 Author: xTheMaster3x
