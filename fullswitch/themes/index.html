@@ -1,35 +1,36 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>FullSwitch Theming</title>
-	<base target="_top">
-	<link rel="stylesheet" type="text/css" href="http://blog.tm3dev.appspot.com/css/style.css"/>
-	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-	<style type="text/css">
-		img {
-
-				margin: 9px 0 4px 0;
-
-			}
-	</style>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-57710906-1', 'auto');
-  ga('send', 'pageview');
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Lost? - xTM3x Dev</title>
+<script type="text/javascript">
+window.onload=function() {
+function countdown() {
+if ( typeof countdown.counter == 'undefined' ) {
+    countdown.counter = 10; // initial count
+    }
+if(countdown.counter > 0) {
+	document.getElementById('count').innerHTML = countdown.counter--;
+    setTimeout(countdown, 1000);
+    }
+else {
+    location.href = 'http://blog.tm3dev.appspot.com/';
+    }
+}
+countdown();
+};
 </script>
 </head>
 <body>
-<panel>
-<block>
-<p>Theming Guide is coming soon!</p>
-</block>
-</panel>
+<center>
+<hr>
+<h1>404 Yo!</h1>
+<hr>
+<img src="http://tm3dev.appspot.com/img/lost.png"><br>
+<h3>You've requested a page that either doesn't exist or existed in the past and has been moved/deleted.</h3>
+<h2>You will be redirected to the main page in <span id="count"></span> seconds</h2>
+<br><br><br><br><br><br><br><br><br><br>
+<footer>Click <a href="http://blog.tm3dev.appspot.com/">here</a> if your browser doesn't automatically redirect you.</footer>
 </body>
 </html>
-
