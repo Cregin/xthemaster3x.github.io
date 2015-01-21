@@ -1,3 +1,18 @@
+Package: com.jackhaal.noannoyingsounds
+Version: 1.0
+Architecture: iphoneos-arm
+Depends: winterboard
+Filename: ./debs/com.jackhaal.noannoyingsounds_1.0_iphoneos-arm.deb
+Size: 1104
+MD5sum: b07bd984aa9815c009a6f8383bc842ed
+SHA1: d8f0c29a5e6d1eb3167881b74af1fd6047181960
+SHA256: cef30ecc145986f8bf1d7fcfda97fcccc4cba426a94e863c30fb3e6b60f3a4f3
+Section: Themes (SpringBoard)
+Description: Get rid of annoying sounds!
+Author: jackhaal <j4ckhaal@gmail.com>
+Depiction: http://repo.tm3dev.com/depics/sounds.html
+Name: NoAnnoyingSounds
+
 Package: com.xtm3x.bork
 Version: 0.0.1-22
 Architecture: iphoneos-arm
@@ -13,6 +28,23 @@ Section: Toys
 Description: Why did I make this...
 Author: xTheMaster3x
 Name: Börk
+
+Package: com.xtm3x.dye
+Version: 1.0-27
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 564
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.dye_1.0-27_iphoneos-arm.deb
+Size: 97260
+MD5sum: 4aea40796a9a7ba5d72c8a85b5140010
+SHA1: f002d241d1dde0bbcfc645d77e7418b52ef09824
+SHA256: 2db6af02d04313ec4483712dd32542efabd9ea8905a8c9aa06048d6fd6a53c6e
+Section: Tweaks
+Description: Change your iOS tint colors.
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/dye.html
+Name: Dye
 
 Package: com.xtm3x.noblur
 Version: 1.2-65
