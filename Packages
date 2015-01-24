@@ -47,16 +47,16 @@ Depiction: http://repo.tm3dev.com/depics/dye.html
 Name: Dye
 
 Package: com.xtm3x.noblur
-Version: 1.2.1-14
+Version: 1.2.2-55
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
-Installed-Size: 328
+Installed-Size: 336
 Depends: mobilesubstrate, preferenceloader, applist
-Filename: ./debs/com.xtm3x.noblur_1.2.1-14_iphoneos-arm.deb
-Size: 44996
-MD5sum: 390399d37aa4d51b776c5de3a1d029f2
-SHA1: c18e291a98689085c6249af1a94cd78e7221752e
-SHA256: 8a230119bab30cc0b47f561abc0b3f8fef755d1fce1cde5552e62218f7650e63
+Filename: ./debs/com.xtm3x.noblur_1.2.2-55_iphoneos-arm.deb
+Size: 49118
+MD5sum: eb19901aa707282eb2db0fa545c83dd1
+SHA1: efaef1777eb02948a114681fb7595f5e67ed2846
+SHA256: db4de39f3475bf02987d1e7ed0821ad59e4b434813075e8c06ffe55907804ccf
 Section: Tweaks
 Description: A tweak that removes the blur effect in iOS 7+
 Author: xTheMaster3x
