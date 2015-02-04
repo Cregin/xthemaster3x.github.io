@@ -30,16 +30,16 @@ Author: xTheMaster3x
 Name: Börk
 
 Package: com.xtm3x.dye
-Version: 1.0-27
+Version: 1.1-7
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 564
 Depends: mobilesubstrate
-Filename: ./debs/com.xtm3x.dye_1.0-27_iphoneos-arm.deb
-Size: 97260
-MD5sum: 4aea40796a9a7ba5d72c8a85b5140010
-SHA1: f002d241d1dde0bbcfc645d77e7418b52ef09824
-SHA256: 2db6af02d04313ec4483712dd32542efabd9ea8905a8c9aa06048d6fd6a53c6e
+Filename: ./debs/com.xtm3x.dye_1.1-7_iphoneos-arm.deb
+Size: 98176
+MD5sum: be7836dc1169b5a86840a6878c75d90a
+SHA1: 397c24814dd3f6d27b0eb53706b807fa927d84c0
+SHA256: e43bb48c75b17d082cf9109dc427ca9de54c8cc2f1053229e8dbe424a29482ae
 Section: Tweaks
 Description: Change your iOS tint colors.
 Author: xTheMaster3x
@@ -82,16 +82,16 @@ Depiction: http://repo.tm3dev.com/depics/nolabels.html
 Name: NoLabels
 
 Package: com.xtm3x.reachall
-Version: 0.0.2-42
+Version: 0.0.2-48
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 404
 Depends: mobilesubstrate, libactivator (>= 1.9.1~beta1)
-Filename: ./debs/com.xtm3x.reachall_0.0.2-42_iphoneos-arm.deb
-Size: 62494
-MD5sum: cc8b00e3543dab945e94013e6160e1c7
-SHA1: 775617023fcd984dc79a1b9e5967ea19fe5711f5
-SHA256: 06ba4a3e7b2df5aec1028550c626846634e127708b54f570c97e6babd066766e
+Filename: ./debs/com.xtm3x.reachall_0.0.2-48_iphoneos-arm.deb
+Size: 62622
+MD5sum: a2d5dab3afe23a2b9d21dd82ee921c0a
+SHA1: d3a4fd4bfe85209041a3e4f080d7db36f97a971e
+SHA256: 3f7bb73a40a60e8c8473ade6f5849bc420fac453ef70c8bdc31f2b3b3ca54410
 Section: Tweaks
 Description: Reachability on all iOS 8 devices.
 Author: xTheMaster3x
