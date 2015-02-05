@@ -8,7 +8,6 @@
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
 	<script type="text/javascript" src="http://cydia.saurik.com/cytyle/style-f4d1dd3c3e519d988f7079e749ed3a86b8990fec.js"></script>
-	<script type="text/javascript" src="http://blog.tm3dev.appspot.com/scripts/version.js"></script>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -19,6 +18,46 @@
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
 
+</script>
+<script>
+	var userOS;    // will either be iOS, Android or unknown
+var userOSver; // this is a string, use Number(userOSver) to convert
+
+function getOS( )
+{
+  var ua = navigator.userAgent;
+  var uaindex;
+
+  // determine OS
+  if ( ua.match(/iPad/i) || ua.match(/iPhone/i) || ua.match(/iPod/i )
+  {
+    userOS = 'iOS';
+    uaindex = ua.indexOf( 'OS ' );
+  }
+  else
+  {
+    userOS = 'unknown';
+  }
+
+  // determine version
+  if ( userOS === 'iOS'  &&  uaindex > -1 )
+  {
+    userOSver = ua.substr( uaindex + 3, 3 ).replace( '_', '.' );
+  }
+  else
+  {
+    userOSver = 'unknown';
+  }
+  
+  if ( userOS === 'iOS' && Number( userOSver.charAt(0) ) >= 7 ) {
+	  document.getElementById('version').innerHTML='<fieldset><div><p>Your device <strong>is</strong> supported.</p></div></fieldset>';
+  }
+  else{
+	  document.getElementById('version').innerHTML='<fieldset><div><p>Your device <strong>is not</strong> supported.</p></div></fieldset>';
+  }
+}
+
+window.onload = getOS;
 </script>
 </head>
 <body>
