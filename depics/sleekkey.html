@@ -21,7 +21,7 @@
 
 </script>
 <script type="text/javascript">
-function iOSversion() {
+body.onload = function iOSversion() {
   if (/iP(hone|od|ad)/.test(navigator.platform)) {
     // supports iOS 2.0 and later: <http://bit.ly/TJjs1V>
     var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
@@ -44,7 +44,7 @@ else {
 }
 </script>
 </head>
-<body onload="iOSversion();">
+<body>
 <panel>
 <div id="version"></div>
 <fieldset style="background-color:#FF0000; border-style:solid; border-color:black; border-width:3px">
