@@ -42,10 +42,9 @@ else {
   alert('Not iOS 7');
   document.getElementById('version').innerHTML='Your device <strong>is not</strong> supported.';
 }
-window.onload = function iOSversion()
 </script>
 </head>
-<body>
+<body onload="iOSversion();">
 <panel>
 <div id="version"></div>
 <fieldset style="background-color:#FF0000; border-style:solid; border-color:black; border-width:3px">
