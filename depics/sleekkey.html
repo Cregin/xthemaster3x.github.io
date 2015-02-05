@@ -23,7 +23,6 @@
 </head>
 <body>
 <panel>
-<div id="version"></div>
 <fieldset style="background-color:#FF0000; border-style:solid; border-color:black; border-width:3px">
 	<div>
 		<div id="version"></div>
@@ -71,14 +70,14 @@ ver = iOSversion();
 
 if (ver[0] >= 7) {
   if (ver[0] >= 8) {
-  	document.getElementById('version').innerHTML='<p>Your device <strong>may be</strong> supported.'</p>;
+  	document.getElementById('version').innerHTML='Your device <strong>may be</strong> supported.';
   }
   else {
-  	document.getElementById('version').innerHTML='<p>Your device <strong>is</strong> supported.</p>';
+  	document.getElementById('version').innerHTML='Your device <strong>is</strong> supported.';
   }
 }
 else {
-  document.getElementById('version').innerHTML='<p>Your device <strong>is not</strong> supported.</p>';
+  document.getElementById('version').innerHTML='Your device <strong>is not</strong> supported.';
 }
 </script>
 </body>
