@@ -23,11 +23,7 @@
 </head>
 <body>
 <panel>
-<fieldset style="background-color:#FF0000; border-style:solid; border-color:black; border-width:3px">
-	<div>
-		<div id="version"></div>
-	</div>
-</fieldset>
+<block id="version"></block>
 <label>Info</label>
 <block>
 <p>No options to configure.</p>
@@ -70,7 +66,7 @@ ver = iOSversion();
 
 if (ver[0] >= 7) {
   if (ver[0] >= 8) {
-  	document.getElementById('version').innerHTML='Your device <strong>may be</strong> supported.';
+  	document.getElementById('version').innerHTML='Your device <strong>may be</strong> supported.<hr>If it is an A5 device (iPhone 4S, iPad 2, iPad mini, iPod touch (5th generation) then it will work.';
   }
   else {
   	document.getElementById('version').innerHTML='Your device <strong>is</strong> supported.';
