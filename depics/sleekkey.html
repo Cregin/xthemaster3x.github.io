@@ -20,53 +20,26 @@
 
 </script>
 <script>
-	var userOS;    // will either be iOS, Android or unknown
-var userOSver; // this is a string, use Number(userOSver) to convert
+function iOSversion() {
+  if (/iP(hone|od|ad)/.test(navigator.platform)) {
+    // supports iOS 2.0 and later: <http://bit.ly/TJjs1V>
+    var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+    return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
+  }
+}
 
-function getOS( )
-{
-  alert('ok');
-  var ua = navigator.userAgent;
-  var uaindex;
+ver = iOSversion();
 
-  // determine OS
-  if ( ua.match(/iPad/i) || ua.match(/iPhone/i) || ua.match(/iPod/i )
-  {
-  	alert('ios');
-    userOS = 'iOS';
-    uaindex = ua.indexOf( 'OS ' );
-  }
-  else
-  {
-  	alert('not ios');
-    userOS = 'unknown';
-  }
-
-  // determine version
-  if ( userOS === 'iOS'  &&  uaindex > -1 )
-  {
-  	alert('ios version');
-    userOSver = ua.substr( uaindex + 3, 3 ).replace( '_', '.' );
-  }
-  else
-  {
-  	alert('not ios version');
-    userOSver = 'unknown';
-  }
-  
-  if ( userOS === 'iOS' && Number( userOSver.charAt(0) ) >= 7 ) {
-  	alert('ios 7');
-	  document.getElementById('version').innerHTML='<fieldset><div><p>Your device <strong>is</strong> supported.</p></div></fieldset>';
-  }
-  else{
-  	alert('legacy');
-	  document.getElementById('version').innerHTML='<fieldset><div><p>Your device <strong>is not</strong> supported.</p></div></fieldset>';
-  }
+if (ver[0] >= 7) {
+  alert('This is running iOS 7 or later.');
+}
+else {
+	alert('urmum69');
 }
 
 </script>
 </head>
-<body onload="getOS();">
+<body onload="iOSversion();">
 <panel>
 <div id="version"></div>
 <fieldset style="background-color:#FF0000; border-style:solid; border-color:black; border-width:3px">
