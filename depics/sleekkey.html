@@ -26,7 +26,7 @@
 <div id="version"></div>
 <fieldset style="background-color:#FF0000; border-style:solid; border-color:black; border-width:3px">
 	<div>
-		<p>Works /maybe/ on all A5 Devices on iOS 8 and all on iOS 7</p>
+		<p><div id="version"></div></p>
 	</div>
 </fieldset>
 <label>Info</label>
@@ -59,7 +59,6 @@
 <script type="text/javascript">
 function iOSversion() {
   if (/iP(hone|od|ad)/.test(navigator.platform)) {
-    // supports iOS 2.0 and later: <http://bit.ly/TJjs1V>
     var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
     return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
   }
@@ -71,11 +70,14 @@ function iOSversion() {
 ver = iOSversion();
 
 if (ver[0] >= 7) {
-  alert('This is running iOS 7 or later.');
-  document.getElementById('version').innerHTML='Your device <strong>is</strong> supported.';
+  if (ver[0] >= 8) {
+  	document.getElementById('version').innerHTML='Your device <strong>may be</strong> supported.';
+  }
+  else {
+  	document.getElementById('version').innerHTML='Your device <strong>is</strong> supported.';
+  }
 }
 else {
-  alert('Not iOS 7');
   document.getElementById('version').innerHTML='Your device <strong>is not</strong> supported.';
 }
 </script>
