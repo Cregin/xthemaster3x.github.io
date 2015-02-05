@@ -25,34 +25,41 @@ var userOSver; // this is a string, use Number(userOSver) to convert
 
 function getOS( )
 {
+  alert('ok');
   var ua = navigator.userAgent;
   var uaindex;
 
   // determine OS
   if ( ua.match(/iPad/i) || ua.match(/iPhone/i) || ua.match(/iPod/i )
   {
+  	alert('ios');
     userOS = 'iOS';
     uaindex = ua.indexOf( 'OS ' );
   }
   else
   {
+  	alert('not ios');
     userOS = 'unknown';
   }
 
   // determine version
   if ( userOS === 'iOS'  &&  uaindex > -1 )
   {
+  	alert('ios version');
     userOSver = ua.substr( uaindex + 3, 3 ).replace( '_', '.' );
   }
   else
   {
+  	alert('not ios version');
     userOSver = 'unknown';
   }
   
   if ( userOS === 'iOS' && Number( userOSver.charAt(0) ) >= 7 ) {
+  	alert('ios 7');
 	  document.getElementById('version').innerHTML='<fieldset><div><p>Your device <strong>is</strong> supported.</p></div></fieldset>';
   }
   else{
+  	alert('legacy');
 	  document.getElementById('version').innerHTML='<fieldset><div><p>Your device <strong>is not</strong> supported.</p></div></fieldset>';
   }
 }
