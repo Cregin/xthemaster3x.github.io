@@ -51,7 +51,7 @@ function iOSversion() {
     return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
   }
   else {
-  	return 0;
+  	return 'Computer :P';
   }
 }
 
@@ -62,12 +62,7 @@ if (ver[0] >= 9) {
   document.getElementById('version').innerHTML='<p>Your device <strong>is</strong> supported.</p>';
 }
 else {
-  if (ver[0] = 0) {
-  	document.getElementById('version').innerHTML="<p>You can't get this on a computer silly :p.</p><hr><p>Known supported iOS version(s) are iOS 8.x.x";
-  }
-  else {
-  	document.getElementById('version').innerHTML='<p>Your device <strong>may not be</strong> supported.</p><hr><p>This is currently untested on iOS '+ver+'.  But you can test it and let me know!';
-  }
+  	document.getElementById('version').innerHTML='<p>Your device <strong>may not</strong> be supported.</p><hr><p>This is currently untested on iOS '+ver+'.  But you can test it and let me know!';
 }
 </script>
 </body>
