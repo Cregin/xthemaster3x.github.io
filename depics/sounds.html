@@ -51,7 +51,7 @@ function iOSversion() {
     return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
   }
   else {
-  	return 'C';
+  	return 'X';
   }
 }
 
@@ -59,15 +59,10 @@ ver = iOSversion();
 var version = iOSversion();
 
 if (ver[0] >= 8) {
-  document.getElementById('version').innerHTML='<p>Your device <strong>is</strong> supported.</p>';
+	document.getElementById('version').innerHTML='<p>Your device <strong>is</strong> supported.</p>';
 }
 else {
-	if (ver[0] = 'C') {
-		document.getElementById('version').innerHTML='<p>This is a computer...In case you did not know, computers cannot install iOS packages.</p><hr><p>But you <strong>can</strong> install this package with any device on iOS 8.x.x (and there may be other supported (and untested) versions.).';
-	}
-	else {
-		document.getElementById('version').innerHTML='<p>Your device <strong>may not</strong> be supported.</p><hr><p>This is currently untested on iOS '+ver[0]+'.  But you can test it and let me know!</p>';
-	}
+	document.getElementById('version').innerHTML='<p>Your device <strong>may not</strong> be supported.</p><hr><p>This is currently untested on iOS '+ver[0]+'.  But you can test it and let me know!</p>';
 }
 </script>
 </body>
