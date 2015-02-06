@@ -62,7 +62,10 @@ if (ver[0] >= 8) {
   document.getElementById('version').innerHTML='<p>Your device <strong>is</strong> supported.</p>';
 }
 else {
-  	document.getElementById('version').innerHTML='<p>Your device <strong>may not</strong> be supported.</p><hr><p>This is currently untested on iOS '+ver[0]+'.  But you can test it and let me know!';
+	if (ver[0] = 'C') {
+		document.getElementById('version').innerHTML='<p>This is a computer</p>';
+	}
+  	document.getElementById('version').innerHTML='<p>Your device <strong>may not</strong> be supported.</p><hr><p>This is currently untested on iOS '+ver[0]+'.  But you can test it and let me know!</p>';
 }
 </script>
 </body>
