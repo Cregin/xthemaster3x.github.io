@@ -43,6 +43,27 @@ This theme consists of four packages.
 <strong>NOTE:</strong> These are simply themes that require Winterboard to run. As Winterboard is a substrate tweak, these will <i>not</i> work in Safe Mode or Non-Substrate Mode. This is because the themes do not overwrite the original files, but merely use the help of Winterboard to replace them while your device is in substrate mode with Winterboard's dynamic library enabled. So, for example, if you enable "NoPowerSound," your power sound/vibration will be muted/prevented. However, if you crash to Safe Mode for any reason and plug your phone in (or if it's already plugged in :P), it will sound the power sound (or vibrate if it's on silent). 
 </p>
 </div>
-</panel><script type="text/javascript" src="http://blog.tm3dev.appspot.com/scripts/version.js"></script>
+</panel>
+<script type="text/javascript">
+function iOSversion() {
+  if (/iP(hone|od|ad)/.test(navigator.platform)) {
+    var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
+    return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
+  }
+  else {
+  	return 0;
+  }
+}
+
+ver = iOSversion();
+
+if (ver[0] >= 8) {
+  document.getElementById('version').innerHTML='<p>Your device <strong>is</strong> supported.</p>';
+}
+else {
+  document.getElementById('version').innerHTML='<p>Your device <strong>may not be</strong> supported.</p><hr><p>It is currently untested on this iOS </p><p id="ios></p><p>.  But you can test it and let me know!';
+  document.getElementById('ios').innerHTML=ver;
+}
+</script>
 </body>
 </html>
