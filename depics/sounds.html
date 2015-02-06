@@ -56,13 +56,14 @@ function iOSversion() {
 }
 
 ver = iOSversion();
+var version = iOSversion();
 
 if (ver[0] >= 9) {
   document.getElementById('version').innerHTML='<p>Your device <strong>is</strong> supported.</p>';
 }
 else {
   document.getElementById('version').innerHTML='<p>Your device <strong>may not be</strong> supported.</p><hr><p>It is currently untested on this iOS <div id="ios>.  But you can test it and let me know!';
-  document.getElementById('ios').innerHTML=iOSversion();
+  document.getElementById('ios').innerHTML=version;
 }
 </script>
 </body>
