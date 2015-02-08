@@ -46,14 +46,41 @@
 <label>Add Repo</label>
 <fieldset>
 	<div>
-		<p>Add <strong>repo.tm3dev.com</strong> to your Cydia sources.</p>
+		<p>Add <span ID="copytext"><strong>repo.tm3dev.com</strong></span> to your Cydia sources.</p>
 	</div>
+	<textarea ID="holdtext" STYLE="display:none;">
+	</textarea>
+	<a href="javascript:ClipBoard();">
+			<img class="icon" src="http://cydia.saurik.com/icon@2x/cydia6.png" width="58" height="58"><div>
+			<div><label><p>Copy to Clipboard</p></label></div>
+		</div></a>
 	<a href="cydia://">
 			<img class="icon" src="http://cydia.saurik.com/icon@2x/cydia6.png" width="58" height="58"><div>
 			<div><label><p>Cydia</p></label></div>
 		</div></a>
 </fieldset>
+<label>Support</label>
+<fieldset>
+	<a href="http://bugs.tm3dev.appspot.com/">
+			<img class="icon" src="CydiaIcon.png" width="58" height="58"><div>
+			<div><label><p>Bug Reporter</p></label></div>
+		</div></a>
+	<a href="http://twitter.com/xTM3x/">
+			<img class="icon" src="http://cydia.saurik.com/icon/twitter.png" width="58" height="58"><div>
+			<div><label><p>@xTM3x on Twitter</p></label></div>
+		</div></a>
 </fieldset>
 </panel>
+<SCRIPT LANGUAGE="JavaScript">
+
+function ClipBoard() 
+{
+holdtext.innerText = copytext.innerText;
+Copied = holdtext.createTextRange();
+Copied.execCommand("RemoveFormat");
+Copied.execCommand("Copy");
+}
+
+</SCRIPT>
 </body>
 </html>
