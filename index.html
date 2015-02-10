@@ -62,15 +62,12 @@ function iOSversion() {
     var v = (navigator.appVersion).match(/OS (\d+)_(\d+)_?(\d+)?/);
     return [parseInt(v[1], 10), parseInt(v[2], 10), parseInt(v[3] || 0, 10)];
   }
-  else {
-  	return 0;
-  }
 }
 
 ver = iOSversion();
 var link = document.getElementById("link");
 
-if (ver[0] = 0) {
+if (ver) {
   link.setAttribute('href', "http://cydia.saurik.com");;
 }
 else {
