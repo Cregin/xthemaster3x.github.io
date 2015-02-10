@@ -39,7 +39,10 @@
 	<div>
 		<p>Add <strong>repo.tm3dev.com</strong> to your Cydia sources.</p>
 	</div>
-	<div id="link"></div>
+	<a href=<span id="link"></span>>
+			<img class="icon" src="http://cydia.saurik.com/icon@2x/cydia6.png" width="58" height="58"><div>
+			<div><label><p>Cydia</p></label></div>
+		</div></a>
 </fieldset>
 <label>Support</label>
 <fieldset>
@@ -67,10 +70,10 @@ function iOSversion() {
 ver = iOSversion();
 
 if (ver[0] = 0) {
-  document.getElementById('link').innerHTML='<a href="http://cydia.saurik.com"><img class="icon" src="http://cydia.saurik.com/icon@2x/cydia6.png" width="58" height="58"><div><div><label><p>Cydia</p></label></div></div></a>';
+  document.getElementById('link').innerHTML='http://cydia.saurik.com';
 }
 else {
-  document.getElementById('link').innerHTML='<a href="cydia://"><img class="icon" src="http://cydia.saurik.com/icon@2x/cydia6.png" width="58" height="58"><div><div><label><p>Cydia</p></label></div></div></a>';
+  document.getElementById('link').innerHTML='cydia://';
 }
 </script>
 </body>
