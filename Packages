@@ -29,6 +29,23 @@ Description: Why did I make this...
 Author: xTheMaster3x
 Name: Börk
 
+Package: com.xtm3x.cleanup
+Version: 0.0.1-16
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 164
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.cleanup_0.0.1-16_iphoneos-arm.deb
+Size: 21344
+MD5sum: 81e85e08c5390c200602e48ab0fed35a
+SHA1: fb1d403ff3a91cb0fc933a443199aea0546e8571
+SHA256: 78491d1fca7c950d719473143f173746504940221c2ee85b3a9e9ca29b474321
+Section: Tweaks
+Description: Quickly remove all background apps
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/cleanup.html
+Name: CleanUp
+
 Package: com.xtm3x.dye
 Version: 1.1-7
 Architecture: iphoneos-arm
