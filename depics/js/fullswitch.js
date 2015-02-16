@@ -12,6 +12,5 @@ if (ver[0] = 7) {
   	document.getElementById('version').innerHTML='<p>Your device <strong>is</strong> supported.</p>';
 }
 else {
-  	document.getElementById('version').innerHTML='<p>Your device <strong>is not</strong> supported.</p>';
-  	
+    document.getElementById('version').innerHTML='<p>Your device <strong>is not</strong> supported.</p>';
 }
