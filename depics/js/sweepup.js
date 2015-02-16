@@ -14,6 +14,6 @@ if (ver[0] >= 8) {
   document.getElementById('version').innerHTML='<p>Your device <strong>is</strong> supported.</p>';
 }
 else {
-  block.setAttribute('style', "background-color:#fdf");
+  block.setAttribute('style', "background-color:#fdd");
   document.getElementById('version').innerHTML='<p>Your device <strong>is not</strong> supported.</p>';
 }
