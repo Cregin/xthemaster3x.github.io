@@ -23,9 +23,9 @@
 <body class="pinstripe">
 <panel>
 <script type="text/javascript">
-var add=function(name,rooturi,distribution,components){
+var add=function(name,rooturi){
   if(confirm("Add Source "+name+"?")){
-    cydia.addSource(rooturi,distribution,components);
+    cydia.addSource(rooturi);
     cydia.refreshSources();
     window.setTimeout(function(){cydia.unload();},0);}};
 </script>
@@ -46,6 +46,7 @@ var add=function(name,rooturi,distribution,components){
     <div><div><label><p>Beta Repo</p></label></div></div>
   </a>
 </fieldset>
+main
 </panel>
 </body>
 </html>
