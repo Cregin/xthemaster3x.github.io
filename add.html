@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>xTM3x - Beta Repo</title>
+	<base target="_top">
+	<link rel="stylesheet" type="text/css" href="http://blog.tm3dev.appspot.com/css/style.css">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	<script type="text/javascript" src="http://cydia.saurik.com/cytyle/style-f4d1dd3c3e519d988f7079e749ed3a86b8990fec.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-57710906-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+</head>
+<!-- page -->
+<body class="pinstripe">
+<panel>
+<script type="text/javascript">
+var add=function(name,rooturi,distribution,components){
+  if(confirm("Add Source "+name+"?")){
+    cydia.addSource(rooturi,distribution,components);
+    cydia.refreshSources();
+    window.setTimeout(function(){cydia.unload();},0);}};
+</script>
+<label class="defaultSources">
+  <p>Default Sources</p>
+</label>
+<fieldset class="defaultSources">
+  <a href="javascript:add('BigBoss',%20'http://apt.thebigboss.org/repofiles/cydia/',%20'stable',%20%5B'main'%5D)" id="bigboss">
+    <img class="icon" src="http://cydia.saurik.com/icon/bigboss.png">
+    <div><div><label><p>BigBoss</p></label></div></div>
+  </a>
+  <a href="javascript:add('ModMyi',%20'http://apt.modmyi.com/',%20'stable',%20%5B'main'%5D)" id="modmyi">
+    <img class="icon" src="http://cydia.saurik.com/icon/modmyi.png">
+    <div><div><label><p>ModMyi</p></label></div></div>
+  </a>
+  <a href="javascript:add('xTM3x Beta Repo',%20'http://repo.tm3dev.com/')" id="tm3dev">
+    <img class="icon" src="http://cydia.saurik.com/icon/zodttd.png">
+    <div><div><label><p>Beta Repo</p></label></div></div>
+  </a>
+</fieldset>
+</panel>
+</body>
+</html>
