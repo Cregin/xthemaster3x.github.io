@@ -64,6 +64,25 @@ Depiction: http://repo.tm3dev.com/depics/noblur.html
 Name: NoBlur
 Support: http://bugs.tm3dev.appspot.com
 
+Package: com.xtm3x.noblurlite
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Conflicts: com.xtm3x.noblur
+Filename: ./debs/com.xtm3x.noblurlite_1.0-1_iphoneos-arm.deb
+Size: 4588
+MD5sum: b8f1ec0fd0220e2e9478552a7b7cdad9
+SHA1: e88c114332afde74586fc1d2ebe37444b655e4c9
+SHA256: 3ca130692d80cbe3391db8629d6500751559e8792165cae67e2278c4fee6cddf
+Section: Tweaks
+Description: NoBlur at it's simplest.
+Author: xTheMaster3x <xtm3xyt@gmail.com>
+Depiction: http://repo.tm3dev.com/depics/nblite.html
+Name: NoBlur Lite
+Support: http://bugs.tm3dev.appspot.com
+
 Package: com.xtm3x.nolabels
 Version: 1.0-4
 Architecture: iphoneos-arm
