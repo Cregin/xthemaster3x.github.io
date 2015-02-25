@@ -46,6 +46,22 @@ Author: xTheMaster3x
 Depiction: http://repo.tm3dev.com/depics/dye.html
 Name: Dye
 
+Package: com.xtm3x.integrate
+Version: 0.0.1-6
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.integrate_0.0.1-6_iphoneos-arm.deb
+Size: 4196
+MD5sum: 2b69da7050d6fef306d1a4d89d19c635
+SHA1: 9b63f05db8eda88a0928c251adaeffbd3695f40f
+SHA256: ab8e96d4908214937a19fb9481abdfa2ba0be6764629462033c49d081b21397c
+Section: Tweaks
+Description: Remove table view separators.
+Author: xTheMaster3x
+Name: Integrate
+
 Package: com.xtm3x.noblur
 Version: 1.2.2-153
 Architecture: iphoneos-arm
@@ -99,6 +115,23 @@ Description: Removes the springboard icon labels
 Author: xTheMaster3x
 Depiction: http://repo.tm3dev.com/depics/nolabels.html
 Name: NoLabels
+
+Package: com.xtm3x.presentation
+Version: 0.0.1-3
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.presentation_0.0.1-3_iphoneos-arm.deb
+Size: 3908
+MD5sum: 266a7c3571f4b725ab308b1944618fba
+SHA1: 84b89099a7daf7f03821ae7a8eb72cb9354b796c
+SHA256: b9441ea7a8999b77fa31f6cc87b01ff87c3e79d15f1931b046bdc5eb1e591892
+Section: Tweaks
+Description: Class-0 like notifications on the lockscreen.
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/present.html
+Name: Presentation
 
 Package: com.xtm3x.reachall
 Version: 0.0.2-48
