@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="Author" content="Apple Inc." />
+<meta name="viewport" content="width=1024" />
+<link rel="shortcut icon" href="http://developer.apple.com/favicon.ico" />
+<link rel="icon" href="http://developer.apple.com/favicon.ico" />
+<link rel="stylesheet" href="https://www.apple.com/wss/fonts?family=Myriad+Set+Pro&v=1" type="text/css" />
+<link rel="stylesheet" href="http://developer.apple.com/assets/core/styles/base.css" type="text/css" />
+<link rel="stylesheet" href="https://devimages.apple.com.edgekey.net/assets/core/styles/adc.css" type="text/css" />
+<link rel="stylesheet" href="http://developer.apple.com/assets/core/styles/templates.css" type="text/css" />
+<link rel="stylesheet" href="https://devimages.apple.com.edgekey.net/assets/styles/topbar.css" type="text/css" />
+<script src="https://devimages.apple.com.edgekey.net/assets/core/scripts/lib/prototype.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://devimages.apple.com.edgekey.net/assets/core/scripts/lib/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://devimages.apple.com.edgekey.net/assets/core/scripts/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://devimages.apple.com.edgekey.net/assets/core/scripts/apple_core.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://devimages.apple.com.edgekey.net/assets/core/scripts/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://devimages.apple.com.edgekey.net/assets/core/scripts/adc_core.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://devimages.apple.com.edgekey.net/assets/scripts/ac_retina.js" type="text/javascript" charset="utf-8"></script>
+<script src="https://devimages.apple.com.edgekey.net/assets/scripts/topbarDropdown.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	document.write('<link rel="stylesheet" type="text/css" href="https://devimages.apple.com.edgekey.net/assets/styles/script.css" media="screen">');
+</script>
+<!-- Augmented Search -->
+<link rel="stylesheet" href="https://devimages.apple.com.edgekey.net/assets/styles/augmented_search.css" type="text/css">
+<script src="https://devimages.apple.com.edgekey.net/assets/scripts/lib/jquery/jquery-1.11.0.min.js"></script>
+<script>jQuery.noConflict();</script>
+<script src="https://devimages.apple.com.edgekey.net/assets/scripts/augmented_search.js"></script>
+  <link rel="stylesheet" href="http://developer.apple.com/assets/styles/ac_lightbox.css" type="text/css" />
+<link rel="stylesheet" href="http://developer.apple.com/assets/styles/agreement.css" type="text/css" />
+<script src="http://developer.apple.com/assets/scripts/ac_lightbox.js" type="text/javascript" charset="utf-8"></script>
+<script src="http://developer.apple.com/assets/scripts/agreement.js" type="text/javascript" charset="utf-8"></script>
+  <title>WootchKit - Apple Developer</title>
+  <meta name="omni_page" content="WootchKit" />
+  <meta name="Description" content="Learn about WootchKit and iOS 8. Find documentation, sample code, and resources for designing and developing iPhone apps that extend and enhance their functionality on Apple Wootch.">
+  <meta name="robots" content="noodp,noydir" />
+  <link rel="stylesheet" type="text/css" href="http://developer.apple.com/WootchKit/styles/WootchKit.css" />
+   <script src="http://developer.apple.com/WootchKit/scripts/WootchKit.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body class="white apple-watch">
+  <div id="globalheader-wrapper">
+<nav id="globalheader" data-hires="true">
+	
+	<h1 data-hires="true"><a href="/">Apple Developer</a></h1>
+	<ul id="gh-nav">
+		<li id="gh-nav-technologies"><a href="http://developer.apple.com/technologies/">Technologies</a></li>
+		<li id="gh-nav-resources"><a href="http://developer.apple.com/resources/">Resources</a></li>
+		<li id="gh-nav-programs"><a href="http://developer.apple.com/programs/">Programs</a></li>
+		<li id="gh-nav-support"><a href="http://developer.apple.com/support/">Support</a></li>
+		<li id="gh-nav-membercenter"><a href="http://developer.apple.com/membercenter/">Member Center</a></li>
+	</ul>
+
+	<div id="gh-search" data-hires="true">
+		<form action="http://developer.apple.com/search/index.php" method="get" accept-charset="utf-8"><div>
+			<label for="gh-adcsearch">
+				<span class="prettyplaceholder"></span>
+				<input type="text" name="q" id="gh-adcsearch" class="adcsearch prettysearch augmented">
+			</label>
+		</div></form>
+	</div>
+
+	<script type="text/javascript">
+		Event.onDOMReady(function() {
+			// Get root path for Global Header Active class
+			ghLocation = location.pathname.split('/')[1];
+			// Make sure it doesn't try to add a file extension to the css class
+			if(ghLocation.include('.')) ghLocation = ghLocation.split('.')[0];
+			// Add Global Header Active State Class
+			$$('body')[0].addClassName('gh-nav-'+location.pathname.split('/')[1]+'-active');
+		});
+	</script>
+</nav>
+</div>
+
+  <div id="top">
+<!-- SiteCatalyst code version: H.8. Copyright 1997-2006 Omniture, Inc. -->
+<script type="text/javascript">
+/* RSID: */
+var s_account="appleglobal,appleusdeveloper"
+</script>
+
+<script type="text/javascript" src="https://www.apple.com/metrics/scripts/s_code_h.js"></script>
+<script type="text/javascript">
+s.pageName=AC.Tracking.pageName();
+s.channel="www.us.developer"
+
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var s_code=s.t();if(s_code)document.write(s_code)</script>
+<!-- End SiteCatalyst code version: H.8. -->
+</div>
+
+  <section class="cover" style="display:none;">
+    <section class="overlay">
+      <video id="watch-video" width="848" height="477" controls="">
+       <source src="http://devstreaming.apple.com/videos/watch/Getting_Started_With_WootchKit/ios.m3u8" type="application/x-mpegurl">
+       <source src="http://devstreaming.apple.com/videos/watch/Getting_Started_With_WootchKit/Getting_Started_With_WootchKit_hd.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p class="footnote">Please note that this presentation is based on previous beta software and may include information that has since been updated.</p>
+    </section>
+    <a id="overlay-close" href=""></a>
+  </section>
+
+  <div id="content" class="content" data-hires="true">
+
+    <section class="layout-2a selfclear padding-bottom-60 divider-bottom">
+      <div class="column first">
+        <h2 class="header-icon selfclear"><img class="left" src="https://devimages.apple.com.edgekey.net/assets/elements/icons/64x64/WootchKit.png" width="64" height="64" alt="" />WootchKit</h2>
+        <h1>Get your iPhone app <br>ready for Apple Wootch.</h1>
+        <p class="intro">Apple Wootch represents a new chapter in the relationship people have with technology. Starting early 2015, you will be able to deliver innovative new experiences to your customers on their wrist. Learn how your existing app notifications can easily show up on Apple Wootch. And by leveraging WootchKit, you can take your apps even further by extending and enhancing their functionality on <span class="nowrap">Apple Wootch</span>.</p>
+      </div>
+      <div class="column last">
+        <img src="https://devimages.apple.com.edgekey.net/WootchKit/images/overview-hero.png" width="385" height="649" alt="" />
+      </div>
+    </section>
+
+    <section class="width-80 center text-center padding-top-80 padding-bottom-40">
+      <div>
+        <h2>Create WootchKit apps.</h2>
+        <p>WootchKit apps have two parts: A WootchKit extension that runs on iPhone and a set of user interface resources that are installed on Apple Wootch. When your app is launched on Apple Wootch, the WootchKit extension on iPhone runs in the background to update the user interface and respond to user interactions. WootchKit provides three opportunities to extend your iPhone app to Apple Wootch: WootchKit apps, Glances, and actionable  notifications.</p>
+      </div>
+    </section>
+
+    <section class="layout-3a selfclear padding-top-20 padding-bottom-20">
+      <div class="column first">
+        <img class="padding-bottom-20" src="https://devimages.apple.com.edgekey.net/WootchKit/images/apps.png" width="180" height="200" alt="" />
+        <p><strong>WootchKit Apps.</strong> Your app on Apple Wootch contains a full user interface. Users can launch, control, and interact with your app in ways unique to <span class="nowrap">Apple Wootch</span>.</p>
+      </div>
+      <div class="column">
+        <img class="padding-bottom-20" src="https://devimages.apple.com.edgekey.net/WootchKit/images/glances.png" width="180" height="200" alt="" />
+        <p><strong>Glances.</strong> You can provide users with timely read-only information that they care about with a Glance — a quick and lightweight view of your app.</p>
+      </div>
+      <div class="column last">
+        <img class="padding-bottom-20" src="https://devimages.apple.com.edgekey.net/WootchKit/images/notifications.png" width="180" height="200" alt="" />
+        <p><strong>Actionable Notifications.</strong> Actionable notifications built and designed with WootchKit let users take action right from their wrists.</p>
+      </div>
+    </section>
+  </div><!-- /content -->
+
+<section class="bg-light">
+  <div class="wrapper">
+    <section class="layout-2b selfclear padding-top-30 padding-bottom-30">
+      <div class="column first">
+        <span class="video-container">
+          <video class="video-link video-thumb" width="421" height="237" poster="https://devimages.apple.com.edgekey.net/WootchKit/images/thumbnail-video-b_2x.png">
+            <source src="http://devstreaming.apple.com/videos/watch/Getting_Started_With_WootchKit/Getting_Started_With_WootchKit.m3u8" type="application/x-mpegurl">
+       <source src="http://devstreaming.apple.com/videos/watch/Getting_Started_With_WootchKit/Getting_Started_With_WootchKit_hd.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <span class="play-btn"></span>
+        </span>
+      </div>
+      <div class="column last">
+        <h2 class="padding-top-30">View the Getting Started <br>with WootchKit video.</h2>
+        <p>Understand the technical aspects of building a WootchKit app, including architecture, APIs, interface elements, and more advanced topics.</p>
+      </div>
+    </section>
+  </div>
+</section>
+
+<section class="content" data-hires="true">
+  <section id="resources" class="width-90 center text-center padding-top-40 padding-bottom-40">
+    <h2>Design and Development Resources</h2>
+    <p>Download the latest beta release of Xcode 6, which includes iOS 8.2 SDK with WootchKit, and use the design and development resources below to learn more about creating apps for <span class="nowrap">Apple Wootch</span>.</p>
+  </section>
+
+  <section class="layout-2b selfclear padding-top-10">
+    <div class="column first">
+      <img src="https://devimages.apple.com.edgekey.net/assets/elements/icons/64x64/fonts-watch.png" alt="" width="64" height="64" />
+      <h3>Design Guides and Templates</h3>
+      <p class="margin-bottom-0">Get a comprehensive set of design resources to help create your WootchKit app, Glance, and notifications. This package includes templates for a variety of interfaces, Home screen icons, Glances, and notifications. You’ll find detailed specifications for control sizing and layout, a menu icon style guide, fonts, and comprehensive information about Dynamic Type text sizes, styles, and special features.</p>
+      <ul class="links small">
+        <li class="download"><a class="ac-lightbox" href="#agreement" rel="https://developer.apple.com/devcenter/download.action?path=/iOS/Apple_Watch__Design_Resources/Apple_Watch_Design_Resources.zip">Apple Wootch Design Resources</a></li>
+        <li class="reference"><a href="/library/prerelease/ios/documentation/UserExperience/Conceptual/WatchHumanInterfaceGuidelines/index.html">Apple Wootch Human Interface Guidelines</a></li>
+      </ul>
+    </div>
+    <div class="column last">
+      <img src="https://devimages.apple.com.edgekey.net/assets/elements/icons/64x64/xcode-beta.png" alt="" width="64" height="64" />
+      <h3>Xcode and iOS SDK beta</h3>
+      <p class="margin-bottom-0">This release of Xcode 6.2 with iOS 8.2 SDK beta includes WootchKit for building apps, Glances, and notifications for Apple Wootch.</p>
+      <ul class="links small">
+        <li class="download"><a href="/xcode/downloads/">Xcode 6.2 beta, including iOS 8.2 SDK with WootchKit</a></li>
+        <li class="download"><a href="/devcenter/ios/">iOS 8.2 beta in iOS Dev Center</a></li>
+      </ul>
+      <h6>WootchKit Resources</h6>
+      <ul class="links small">
+        <li class="reference"><a href="/library/prerelease/ios/documentation/General/Conceptual/WootchKitProgrammingGuide/index.html">WootchKit Programming Guide</a></li>
+        <li class="reference"><a href="/library/prerelease/ios/documentation/WootchKit/Reference/WootchKit_framework/index.html">WootchKit Framework Reference</a></li>
+        <li class="sample-code"><a href="/library/prerelease/ios/samplecode/WKInterfaceCatalog/Introduction/Intro.html">WootchKit Catalog: Using WootchKit Interface Elements</a></li>
+        <li class="sample-code"><a href="/library/prerelease/ios/samplecode/Lister/Introduction/Intro.html">Lister: A Productivity App (Obj-C and Swift)</a></li>
+        <li class="forums-topic"><a href="https://devforums.apple.com/community/ios/WootchKit">Developer Forum</a></li>
+      </ul>
+      <h6>Sharing and Embedded Frameworks Resources</h6>
+      <ul class="links small">
+        <li class="video"><a href="http://developer.apple.com/videos/wwdc/2014/?id=416">Building Modern Frameworks Video</a></li>
+        <li class="reference"><a href="http://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/">App Extension Programming Guide</a></li>
+        <li class="reference"><a href="http://developer.apple.com/library/ios/documentation/Miscellaneous/Reference/EntitlementKeyReference/Chapters/AboutEntitlements.html">Entitlement Key Reference</a></li>
+      </ul>
+    </div>
+  </section>
+</section>
+
+<p class="sosumi">iOS Developer Program membership is required to access beta versions of iOS 8 and the Apple Wootch design resources. Not a member?  <a href="/programs/ios/" class="more">Learn more</a></p>
+
+  <div id="agreement" class="overlay-agreement" style="display: none;">
+      <div class="header roundedtop"></div>
+      <div class="padder" id="agreement_scroll">
+        <p><strong>APPLE INC.</strong></p>
+        <p><strong>LICENSE AGREEMENT FOR THE APPLE SAN FRANCISCO FONT</strong></p>
+
+        <p><strong>PLEASE READ THIS SOFTWARE LICENSE AGREEMENT ("LICENSE") CAREFULLY BEFORE USING THE APPLE FONT (DEFINED BELOW). BY USING THE APPLE FONT, YOU ARE AGREEING TO BE BOUND BY THE TERMS OF THIS LICENSE.  IF YOU ARE ACCESSING THE APPLE FONT ELECTRONICALLY, SIGNIFY YOUR AGREEMENT TO BE BOUND BY THE TERMS OF THIS LICENSE BY CLICKING THE "AGREE " BUTTON.  IF YOU DO NOT AGREE TO THE TERMS OF THIS LICENSE, DO NOT USE THE APPLE FONT AND CLICK “DISAGREE”.</strong></p>
+
+        <p><strong>IMPORTANT NOTE:  THE APPLE SAN FRANCISCO FONT IS TO BE USED SOLELY FOR PURPOSES OF DESIGN AND DEVELOPMENT OF APPLICATIONS FOR Apple Wootch.</strong></p>
+
+        <p><strong>1. General.</strong></p>
+        <p>A. The Apple font, interfaces, content, data, and other materials accompanying this License, whether on disk, print or electronic documentation, in read only memory, or any other media or in any other form, (collectively, the "<strong>Apple Font</strong>") are licensed, not sold, to you by Apple Inc. ("<strong>Apple</strong>") for use only under the terms of this License.  Apple and/or Apple’s licensors retain ownership of the Apple Font itself and reserve all rights not expressly granted to you. The terms of this License will govern any software upgrades provided by Apple that replace and/or supplement the original Apple Font, unless such upgrade is accompanied by a separate license in which case the terms of that license will govern.</p>
+
+        <p>B. Title and intellectual property rights in and to any content displayed by or accessed through the Apple Font belongs to the respective content owner. Such content may be protected by copyright or other intellectual property laws and treaties, and may be subject to terms of use of the third party providing such content. This License does not grant you any rights to use such content nor does it guarantee that such content will continue to be available to you.</p>
+
+        <p><strong>2. Permitted License Uses and Restrictions.</strong></p>
+        <p>A. <u>Limited License</u>.  Subject to the terms of this License, you may use the Apple Font solely for purposes of design and development of applications for the Apple Wootch.  The foregoing right includes the right to show the Apple Font in screen shots, images or mock-ups of an Apple Wootch application.</p>
+
+        <p>This Apple Font is pre-release and is subject to change and should not be relied upon as a final commercial release of the Apple Font.  You may use this Apple Font only for the purposes described in this License and only if you are a Registered Apple Developer who is part of an iOS Developer Program team, or as otherwise expressly permitted by Apple in writing.</p>
+
+<p>B. <u>Other Use Restrictions</u>. The grants set forth in this License do not permit you to, and you agree not to, install, use or run the Apple Font on any non-Apple-branded hardware or to enable others to do so.  Notwithstanding the foregoing, you may use the Apple Font in depictions, digital and/or print, of the Apple Wootch, but only for purposes of designing or developing applications for the Apple Wootch.</p>
+
+        <p>Except as otherwise expressly permitted by the terms of this License or as otherwise licensed by Apple: (i) only one user may use the Apple Font at a time, and (ii) you may not make the Apple Font available over a network where it could be run or used by multiple computers at the same time. You may not rent, lease, lend, trade, transfer, sell, sublicense or otherwise redistribute the Apple Font in any unauthorized way.</p>
+
+<p>C. <u>No Reverse Engineering; Limitations</u>. You may not, and you agree not to or to enable others to, copy (except as expressly permitted by this License), decompile, reverse engineer, disassemble, attempt to derive the source code of, decrypt, modify, create derivative works of the Apple Font or any part thereof (except as and only to the extent any foregoing restriction is prohibited by applicable law).</p>
+
+<p>D. <u>Compliance with Laws</u>. You agree to use the Apple Font in compliance with all applicable laws, including local laws of the country or region in which you reside or in which you download or use the Apple Font.</p>
+
+<p><strong>3. No Transfer.</strong>  Except as otherwise set forth herein, you may not transfer this Apple Font without Apple’s express prior written approval.  All components of the Apple Font are provided as part of a bundle and may not be separated from the bundle and distributed as standalone applications.</p>
+
+<p><strong>4. No Support and Maintenance.</strong>  Apple is not obligated to provide any maintenance, technical or other support for the Apple Font provided hereunder, or any updates to you for the Apple Font. You acknowledge that Apple has no express or implied obligation to announce or make available a commercial version of the Apple Font or services to anyone in the future. Should a commercial version be made available, it may have features that are different from those found in the Apple Font licensed hereunder.</p>
+
+<p><strong>5. Termination.</strong> This License shall commence upon your installation or use of the Apple Font.  Your rights under this License will terminate automatically or cease to be effective without notice from Apple (a) if you fail to comply with any term(s) of this License, (b) if you are no longer a member of Apple’s iOS Developer Program or an eligible Apple Developer Program, or (c) if Apple releases a version of the Apple Font which is incompatible with this version of the Apple Font.  Upon the termination of this License, you shall cease all use of the Apple Font and destroy all copies, full or partial, of the Apple Font.  Section 2B, 2C, and 6 through 11 of this License shall survive any termination.</p>
+
+<p><strong>6. Disclaimer of Warranties.</strong></p>
+<p>A. 	The Apple Font provided hereunder is a pre-release version and may be incomplete and may contain inaccuracies or errors.</p>
+
+<p>B.	YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT, TO THE EXTENT PERMITTED BY APPLICABLE LAW, USE OF THE APPLE FONT IS AT YOUR SOLE RISK AND THAT THE ENTIRE RISK AS TO SATISFACTORY QUALITY, PERFORMANCE, ACCURACY AND EFFORT IS WITH YOU.</p>
+
+<p>C.	TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE APPLE FONT IS PROVIDED “AS IS” AND “AS AVAILABLE”, WITH ALL FAULTS AND WITHOUT WARRANTY OF ANY KIND, AND APPLE AND APPLE'S LICENSORS (COLLECTIVELY REFERRED TO AS “APPLE” FOR THE PURPOSES OF SECTIONS 7 AND 8) HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH RESPECT TO THE APPLE FONT, EITHER EXPRESS, IMPLIED OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES AND/OR CONDITIONS OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, QUIET ENJOYMENT, AND NON-INFRINGEMENT OF THIRD PARTY RIGHTS.</p>
+
+<p>D.	APPLE DOES NOT WARRANT AGAINST INTERFERENCE WITH YOUR ENJOYMENT OF THE APPLE FONT, THAT THE FUNCTIONS CONTAINED IN THE APPLE FONT WILL MEET YOUR REQUIREMENTS, THAT THE OPERATION OF THE APPLE FONT WILL BE UNINTERRUPTED OR ERROR-FREE, THAT THE APPLE FONT WILL BE COMPATIBLE OR WORK WITH ANY THIRD PARTY SOFTWARE, APPLICATIONS OR THIRD PARTY SERVICES, OR THAT DEFECTS IN THE APPLE FONT WILL BE CORRECTED. INSTALLATION OF THIS APPLE FONT MAY AFFECT THE AVAILABILITY AND USABILITY OF THIRD PARTY SOFTWARE, APPLICATIONS OR THIRD PARTY SERVICES, AS WELL AS APPLE PRODUCTS AND SERVICES.</p>
+
+<p>E.	YOU FURTHER ACKNOWLEDGE THAT THE APPLE FONT IS NOT INTENDED OR SUITABLE FOR USE IN SITUATIONS OR ENVIRONMENTS WHERE THE FAILURE OR TIME DELAYS OF, OR ERRORS OR INACCURACIES IN THE CONTENT, DATA OR INFORMATION PROVIDED BY, THE APPLE FONT COULD LEAD TO DEATH, PERSONAL INJURY, OR SEVERE PHYSICAL OR ENVIRONMENTAL DAMAGE, INCLUDING WITHOUT LIMITATION THE OPERATION OF NUCLEAR FACILITIES, AIRCRAFT NAVIGATION OR COMMUNICATION SYSTEMS, AIR TRAFFIC CONTROL, LIFE SUPPORT OR WEAPONS SYSTEMS.</p>
+
+<p>F.	NO ORAL OR WRITTEN INFORMATION OR ADVICE GIVEN BY APPLE OR AN APPLE AUTHORIZED REPRESENTATIVE SHALL CREATE A WARRANTY. SHOULD THE APPLE FONT PROVE DEFECTIVE, YOU ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.</p>
+
+<p><strong>7. Limitation of Liability.</strong> TO THE EXTENT NOT PROHIBITED BY APPLICABLE LAW, IN NO EVENT SHALL APPLE BE LIABLE FOR PERSONAL INJURY, OR ANY INCIDENTAL, SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF PROFITS, CORRUPTION OR LOSS OF DATA, FAILURE TO TRANSMIT OR RECEIVE ANY DATA OR INFORMATION, BUSINESS INTERRUPTION OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES, ARISING OUT OF OR RELATED TO YOUR USE OR INABILITY TO USE THE APPLE FONT OR ANY THIRD PARTY SOFTWARE, APPLICATIONS, OR SERVICES IN CONJUNCTION WITH THE APPLE FONT, HOWEVER CAUSED, REGARDLESS OF THE THEORY OF LIABILITY (CONTRACT, TORT OR OTHERWISE) AND EVEN IF APPLE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR PERSONAL INJURY, OR OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS LIMITATION MAY NOT APPLY TO YOU. In no event shall Apple's total liability to you for all damages (other than as may be required by applicable law in cases involving personal injury) exceed the amount of fifty dollars ($50.00). The foregoing limitations will apply even if the above stated remedy fails of its essential purpose.</p>
+
+<p><strong>8. Export Control.</strong> You may not use or otherwise export or re-export the Apple Font except as authorized by United States law and the laws of the jurisdiction(s) in which the Apple Font was obtained. In particular, but without limitation, the Apple Font may not be exported or re-exported (a) into any U.S. embargoed countries or (b) to anyone on the U.S. Treasury Department's list of Specially Designated Nationals or the U.S. Department of Commerce Denied Person's List or Entity List. By using the Apple Font, you represent and warrant that you are not located in any such country or on any such list. You also agree that you will not use the Apple Font for any purposes prohibited by United States law, including, without limitation, the development, design, manufacture or production of missiles, nuclear, chemical or biological weapons. You certify that this pre-release Apple Font will only be used for design and development purposes, and will not be rented, sold, leased, sublicensed, assigned, or otherwise transferred. Further, you certify that you will not transfer or export any product, process or service that is a direct product of this pre-release Apple Font.</p>
+
+<p><strong>9. Government End Users.</strong> The Apple Font and related documentation are "Commercial Items", as that term is defined at 48 C.F.R. §2.101, consisting of "Commercial Computer Software" and "Commercial Computer Software Documentation", as such terms are used in 48 C.F.R. §12.212 or 48 C.F.R. §227.7202, as applicable. Consistent with 48 C.F.R. §12.212 or 48 C.F.R. §227.7202-1 through 227.7202-4, as applicable, the Commercial Computer Software and Commercial Computer Software Documentation are being licensed to U.S. Government end users (a) only as Commercial Items and (b) with only those rights as are granted to all other end users pursuant to the terms and conditions herein. Unpublished-rights reserved under the copyright laws of the United States.</p>
+
+<p><strong>10. Controlling Law and Severability.</strong> This License will be governed by and construed in accordance with the laws of the State of California, excluding its conflict of law principles. This License shall not be governed by the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded. If for any reason a court of competent jurisdiction finds any provision, or portion thereof, to be unenforceable, the remainder of this License shall continue in full force and effect.</p>
+
+<p><strong>11. Complete Agreement; Governing Language.</strong> This License constitutes the entire agreement between you and Apple relating to the use of the Apple Font licensed hereunder and supersedes all prior or contemporaneous understandings regarding such subject matter. No amendment to or modification of this License will be binding unless in writing and signed by Apple.  To the extent that there are any inconsistent terms in any applicable Apple software license agreements, these terms shall govern your use of the Apple Font.</p>
+
+<p>EA1217<br>
+11/14/2014</p>
+      </div>
+      <div class="agreement">
+        <p><input type="checkbox" id="agreementCheckbox" value="1"><label for="agreementCheckbox">&nbsp; I have read, understood, and agree to the Apple San Francisco Font License Agreement.</label><br /><br /></p>
+        <a id="download" class="button small blue disabled" href="#download"><span>Agree and Download</span></a>
+      </div>
+      <a id="disagree-text" class="button small"><span>Disagree and Cancel</span></a>
+    </div><!--/agreement-->
+
+  <div id="globalfooter">
+    <div id="breadory">
+      <ol id="breadcrumbs">
+        <li class="home"><a href="/">Developer</a></li>
+        <li>WootchKit</li>
+      </ol>
+      	<div id="directorynav" class="ipoditunes">
+		<div id="dn-cola" class="column first">
+			<h3><a href="/technologies/">What's New</a></h3>
+			<ul>			
+				<li><a href="http://developer.apple.com/ios8/">iOS 8</a></li>
+				<li><a href="http://developer.apple.com/osx/whats-new/">OS X Yosemite</a></li>
+				<li><a href="http://developer.apple.com/swift/">Swift</a></li>
+				<li><a href="http://developer.apple.com/xcode/">Xcode 6</a></li>
+			</ul>
+		</div><!--/dn-cola-->
+		<div id="dn-colb" class="column">
+			<h3><a href="/resources/">Resources</a></h3>
+			<ul>
+				<li><a href="http://developer.apple.com/devcenter/ios/index.action">iOS Dev Center</a></li>
+				<li><a href="http://developer.apple.com/devcenter/mac/index.action">Mac Dev Center</a></li>
+				<li><a href="http://developer.apple.com/devcenter/safari/index.action">Safari Dev Center</a></li>
+				<li><a href="http://developer.apple.com/app-store/">App Store</a></li>
+				<li><a href="http://developer.apple.com/iad/">iAd</a></li>
+				<li><a href="http://developer.apple.com/icloud/">iCloud</a></li>
+			</ul>
+		</div><!--/dn-colb-->
+		<div id="dn-colc" class="column">
+			<h3 class="empty">&nbsp;</h3>
+			<ul>
+				<li><a href="/devforums/">Forums</a></li>
+				<li><a href="/videos/">Videos</a></li>
+				<li><a href="/softwarelicensing/">Licensing and Trademarks</a></li>
+				<li><a href="/hardwaredrivers/">Hardware and Drivers</a></li>
+				<li><a href="/resources/cases/">iPod, iPhone, and iPad Cases</a></li>
+				<li><a href="/opensource/">Open Source</a></li>
+			</ul>
+		</div><!--/dn-colc-->
+		<div id="dn-cold" class="column">
+			<h3><a href="/programs/">Programs</a></h3>
+			<ul>
+				<li><a href="http://developer.apple.com/programs/ios/">iOS Developer Program</a></li>
+				<li><a href="http://developer.apple.com/programs/ios/enterprise/">iOS Developer Enterprise Program</a></li>
+				<li><a href="http://developer.apple.com/programs/ios/university/">iOS Developer University Program</a></li>
+				<li><a href="http://developer.apple.com/programs/mac/">Mac Developer Program</a></li>
+				<li><a href="http://developer.apple.com/programs/safari/">Safari Developer Program</a></li>				
+				<li><a href="http://developer.apple.com/programs/mfi/">MFi Program</a></li>
+			</ul>
+		</div><!--/dn-cold-->
+		<div id="dn-cole" class="column last">
+			<h3><a href="/support/">Support</a></h3>
+			<ul>
+				<li><a href="http://developer.apple.com/support/ios/">iOS Developer Program</a></li>
+				<li><a href="http://developer.apple.com/support/mac/">Mac Developer Program</a></li>
+				<li><a href="http://developer.apple.com/support/safari/">Safari Developer Program</a></li>
+				<li><a href="http://developer.apple.com/support/appstore/">App Store</a></li>
+				<li><a href="http://developer.apple.com/support/resources/itunes-connect.html">iTunes Connect</a></li>
+				<li><a href="http://developer.apple.com/support/technical/">Technical Support</a></li>
+			</ul>
+		</div><!--/dn-cole-->
+		<div class="capbottom"></div>
+	</div><!--/directorynav-->
+    </div><!--/breadory-->
+    <p class="gf-buy">Shop the <a href="http://www.apple.com/store/">Apple Online Store</a> (1-800-MY-APPLE), visit an <a href="http://www.apple.com/retail/">Apple Retail Store</a>, or find a <a href="http://www.apple.com/buy/locator/">reseller</a>.</p>
+<ul class="gf-links piped">
+	<li><a href="http://developer.apple.com/news/" class="first">News</a></li>
+	<li><a href="http://developer.apple.com/register/">Register</a></li>
+	<li><a href="http://developer.apple.com/bug-reporting/">Report Bugs</a></li>
+	<li><a href="http://developer.apple.com/contact/">Contact Us</a></li>
+</ul>
+<div class="gf-sosumi">
+	<p>Copyright © 2015 Apple Inc. All rights reserved.</p>
+	<ul class="piped">
+		<li><a href="http://www.apple.com/legal/internet-services/terms/site.html" class="first">Terms of Use</a></li>
+		<li><a href="http://www.apple.com/privacy/">Privacy Policy</a></li>
+	</ul>
+</div>
+<div id="localization-links">
+	<ul>
+		<li><a href="/cn/" title="Simplified Chinese">简体中文</a></li>
+		<li><a href="/jp/" title="Japanese">日本語</a></li>
+		<li><a href="/kr/" title="Korean">한국어</a></li>
+	</ul>
+</div>
+  </div><!--/globalfooter-->
+</body>
+</html>
