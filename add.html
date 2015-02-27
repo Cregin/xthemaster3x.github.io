@@ -1,55 +1,42 @@
-<!--EXTREM BETA PLOX NO USE-->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>xTM3x - Beta Repo</title>
-	<base target="_top">
-	<link rel="stylesheet" type="text/css" href="http://blog.tm3dev.appspot.com/css/style.css">
+
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>More Sources · Cydia
+</title>
+	<link rel="stylesheet" type="text/css" href="http://cydia.saurik.comcytyle/style-544525394dbceaf72540236a6b5edce899482bda.css">
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="format-detection" content="telephone=no">
-	<script type="text/javascript" src="http://cydia.saurik.com/cytyle/style-f4d1dd3c3e519d988f7079e749ed3a86b8990fec.js"></script>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-57710906-1', 'auto');
-  ga('require', 'displayfeatures');
-  ga('send', 'pageview');
-</script>
-</head>
-<!-- page -->
-<body class="pinstripe">
-<panel>
-<script type="text/javascript">
-document.addEventListener("CydiaReloadData",function(){window.location.reload();});$(function(){if(typeof cydia!='undefined'&&typeof cydia.getAllSources!='undefined'){var defaults=0;var normals=[["bigboss","http://apt.thebigboss.org/repofiles/cydia/","stable",["main"]],["modmyi","http://apt.modmyi.com/","stable",["main"]],["tm3dev","http://repo.tm3dev.com/"],];var sources=cydia.getAllSources();for(var source in sources){source=sources[source];var rooturi=source.rooturi;var distribution=source.distribution;for(var normal in normals){normal=normals[normal];if(rooturi==normal[1]&&distribution==normal[2]){defaults+=1;$("#"+normal[0]).remove();}}}
+	<script type="text/javascript" src="http://cydia.saurik.com/fastclick/lib/fastclick.js">
+	</script>
+	<script type="text/javascript" src="http://cydia.saurik.com/cytyle/style-5f60a497be66e3165611f3130a326a1bf73d5781.js">
+	</script>
+	<script type="text/javascript">if(navigator.userAgent.search(/Cydia/)!=-1){var title=document.title;var dot=title.indexOf('·');if(dot!=-1)
+document.title=title.substring(0,dot);}</script>
+	<script type="text/javascript" src="http://cydia.saurik.com/menes/menes.js">
+	</script>
+	</head>
+	<body class="pinstripe">
+	<panel>
+	<script type="text/javascript">document.addEventListener("CydiaReloadData",function(){window.location.reload();});$(function(){if(typeof cydia!='undefined'&&typeof cydia.getAllSources!='undefined'){var defaults=0;var normals=[["bigboss","http://repo.tm3dev.com/"],["modmyi","http://apt.modmyi.com/","stable",["main"]],["zodttd","http://cydia.zodttd.com/repo/cydia/","stable",["main"]],];var sources=cydia.getAllSources();for(var source in sources){source=sources[source];var rooturi=source.rooturi;var distribution=source.distribution;for(var normal in normals){normal=normals[normal];if(rooturi==normal[1]&&distribution==normal[2]){defaults+=1;$("#"+normal[0]).remove();}}}
 if(defaults==3)
-$(".defaultSources").remove();}});
-var add=function(name,rooturi){
-  if(confirm("Add Source "+name+"?")){
-    cydia.addSource(rooturi);
-    cydia.refreshSources();
-    window.setTimeout(function(){cydia.unload();},0);}};
-</script>
-<label class="defaultSources">
-  <p>Default Sources</p>
-</label>
-<fieldset class="defaultSources">
-  <a href="javascript:add('BigBoss',%20'http://apt.thebigboss.org/repofiles/cydia/',%20'stable',%20%5B'main'%5D)" id="bigboss">
-    <img class="icon" src="http://cydia.saurik.com/icon/bigboss.png">
-    <div><div><label><p>BigBoss</p></label></div></div>
-  </a>
-  <a href="javascript:add('ModMyi',%20'http://apt.modmyi.com/',%20'stable',%20%5B'main'%5D)" id="modmyi">
-    <img class="icon" src="http://cydia.saurik.com/icon/modmyi.png">
-    <div><div><label><p>ModMyi</p></label></div></div>
-  </a>
-  <a href="javascript:add('xTM3x Beta Repo',%20'http://repo.tm3dev.com/')" id="tm3dev">
-    <img class="icon" src="http://cydia.saurik.com/icon/zodttd.png">
-    <div><div><label><p>Beta Repo</p></label></div></div>
-  </a>
-</fieldset>
-</panel>
-main
-</body>
-</html>
+$(".defaultSources").remove();}});var add=function(name,rooturi,distribution,components){if(confirm("Add Source "+name+"?")){cydia.addSource(rooturi,distribution,components);cydia.refreshSources();window.setTimeout(function(){cydia.unload();},0);}};</script>
+	<label class="defaultSources">
+	<p>Default Sources</p>
+	</label>
+	<fieldset class="defaultSources">
+	<a href="javascript:add('xTM3x Repo',%20'http://repo.tm3dev.com')" id="xTM3x Repo">
+	<img class="icon" src="/icon/bigboss.png">
+	<div>
+	<div>
+	<label>
+	<p>xTM3x Repo</p>
+	</label>
+	</div>
+	</div>
+	</a>
+	</fieldset>
+	</panel>
+	</body>
+	</html>
