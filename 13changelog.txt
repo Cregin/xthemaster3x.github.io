@@ -1,0 +1,16 @@
+NoBlur 1.3 Changelog
+
+Individual Options
++ Added Control Center
++ Added Notification Center
++ Added Notification Banenrs
++ Added Keyboard background
++ Added Quick Reply
+
+Universal Blur
++ Per-App settings
+
+Other
++ Replace blurs toggle
++ Disable in SpringBoard
+* Redid Preferences
