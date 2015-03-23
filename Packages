@@ -185,16 +185,16 @@ Name: SixBar
 Support: http://bugs.tm3dev.appspot.com/
 
 Package: com.xtm3x.sleekkey
-Version: 1.0-1
+Version: 1.0-47
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
-Installed-Size: 72
+Installed-Size: 428
 Depends: mobilesubstrate
-Filename: ./debs/com.xtm3x.sleekkey_1.0-1_iphoneos-arm.deb
-Size: 4114
-MD5sum: 7872ed0658574a34c3b17e172890dbbc
-SHA1: 67d709202e939c5c0e6189f027a7fcb865d8536d
-SHA256: 4074a05fdc2afc0230b772d6ac2476e580e7fa382dbe0f9cea448f54f6070d8f
+Filename: ./debs/com.xtm3x.sleekkey_1.0-47_iphoneos-arm.deb
+Size: 78628
+MD5sum: c0344e551498a7d902b1d763b84b91c1
+SHA1: 0734fa23db40dbcf2a7f1a9174a5fd29d4f22ff8
+SHA256: 192efb1f30d1c0a0ce678a989f75cf5460f3fe102f618506179d63025c04d118
 Section: Tweaks
 Description: Removes the background on system keys.
 Author: xTheMaster3x
