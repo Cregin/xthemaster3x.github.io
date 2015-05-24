@@ -167,16 +167,16 @@ Author: xTheMaster3x
 Name: ReplaceBlur
 
 Package: com.xtm3x.sixbar
-Version: 0.0.4-447
+Version: 0.0.4-450
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
 Installed-Size: 456
 Depends: mobilesubstrate, applist, preferenceloader
-Filename: ./debs/com.xtm3x.sixbar_0.0.4-447_iphoneos-arm.deb
-Size: 107922
-MD5sum: a416a45c0711a5bd3ec52586c43eae2a
-SHA1: 3496e735f9a714fae5dd7fd76db6c66182ad541d
-SHA256: bd8eeb88b1ea382c0be0a6a608f3d5014753698e6683944bf71141762b3325cf
+Filename: ./debs/com.xtm3x.sixbar_0.0.4-450_iphoneos-arm.deb
+Size: 103306
+MD5sum: 6d5d72717166b5bcf6081bbcc8ef5af8
+SHA1: 7cd55e1b2ac8d5105c7cdb91afbbfe80235682ca
+SHA256: 2f4d9319642dc452e75d8aef0ec8b13ce3c4fcdc25621d45d1369ffb7778b57a
 Section: Tweaks
 Description: Bring back the old iOS 6 Status Bar
 Author: xTheMaster3x <xtm3xyt@gmail.com>
