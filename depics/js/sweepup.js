@@ -11,9 +11,9 @@ ver = iOSversion();
 var block = document.getElementById("version");
 if (ver[0] >= 8) {
   block.setAttribute('style', "background-color:#dfd");
-  document.getElementById('version').innerHTML='<p>Your device <strong>is</strong> supported.</p>';
+  block.innerHTML='<p>Your device <strong>is</strong> supported.</p>';
 }
 else {
   block.setAttribute('style', "background-color:#fdd");
-  document.getElementById('version').innerHTML='<p>Your device <strong>is not</strong> supported.</p>';
+  block.innerHTML='<p>Your device <strong>is not</strong> supported.</p>';
 }
