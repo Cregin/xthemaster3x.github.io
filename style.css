@@ -683,39 +683,8 @@ fieldset>a>img.icon+div>div {
 .cytyle-flat fieldset>a>div>div {
     padding: 10px 15px 10px 0
 }
-block>a>img.icon {
-    position: absolute;
-    height: auto;
-    max-height: 30px;
-    width: 30px;
-    min-width: 30px
-}
-.cytyle-faux block>img.icon {
-    margin: 6px 6px
-}
-.cytyle-flat block>img.icon {
-    margin: 6px 15px
-}
-.cytyle-faux block>img.icon+div {
-    margin-left: 42px
-}
-.cytyle-flat block>img.icon+div {
-    margin-left: 51px
-}
-block>img.icon+div>div {
-    min-height: 42px
-}
-.cytyle-faux block>div {
-    margin-left: 15px
-}
-.cytyle-flat block>div {
-    margin-left: 15px
-}
-.cytyle-faux block>div>div {
-    padding: 11px 15px 11px 0
-}
-.cytyle-flat block>div>div {
-    padding: 10px 15px 10px 0
+fieldset.fake {
+    background-color: rgba(255, 255, 255, 0.5);
 }
 fieldset>a[type="profile"]>img.icon {
     position: absolute;
