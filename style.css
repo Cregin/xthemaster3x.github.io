@@ -649,31 +649,12 @@ fieldset.more {
 .cytyle-flat fieldset.more>a>div>div label {
     margin-right: -10px
 }
-block>img.icon {
-    position: absolute;
-    height: auto;
-    max-height: 30px;
-    width: 30px;
-    min-width: 30px
-}
 fieldset>a>img.icon {
     position: absolute;
     height: auto;
     max-height: 30px;
     width: 30px;
     min-width: 30px
-}
-.cytyle-faux block>img.icon {
-    margin: 6px 6px
-}
-.cytyle-flat block>img.icon {
-    margin: 6px 15px
-}
-.cytyle-faux block>img.icon+div {
-    margin-left: 42px
-}
-.cytyle-flat block>img.icon+div {
-    margin-left: 51px
 }
 .cytyle-faux fieldset>a>img.icon {
     margin: 6px 6px
@@ -687,23 +668,8 @@ fieldset>a>img.icon {
 .cytyle-flat fieldset>a>img.icon+div {
     margin-left: 51px
 }
-block>img.icon+div>div {
-    min-height: 42px
-}
 fieldset>a>img.icon+div>div {
     min-height: 42px
-}
-.cytyle-faux block>div {
-    margin-left: 15px
-}
-.cytyle-flat block>div {
-    margin-left: 15px
-}
-.cytyle-faux block>div>div {
-    padding: 11px 15px 11px 0
-}
-.cytyle-flat block>div>div {
-    padding: 10px 15px 10px 0
 }
 .cytyle-faux fieldset>a>div {
     margin-left: 15px
@@ -715,6 +681,40 @@ fieldset>a>img.icon+div>div {
     padding: 11px 15px 11px 0
 }
 .cytyle-flat fieldset>a>div>div {
+    padding: 10px 15px 10px 0
+}
+block>a>img.icon {
+    position: absolute;
+    height: auto;
+    max-height: 30px;
+    width: 30px;
+    min-width: 30px
+}
+.cytyle-faux block>a>img.icon {
+    margin: 6px 6px
+}
+.cytyle-flat block>a>img.icon {
+    margin: 6px 15px
+}
+.cytyle-faux block>a>img.icon+div {
+    margin-left: 42px
+}
+.cytyle-flat block>a>img.icon+div {
+    margin-left: 51px
+}
+block>a>img.icon+div>div {
+    min-height: 42px
+}
+.cytyle-faux block>a>div {
+    margin-left: 15px
+}
+.cytyle-flat block>a>div {
+    margin-left: 15px
+}
+.cytyle-faux block>a>div>div {
+    padding: 11px 15px 11px 0
+}
+.cytyle-flat block>a>div>div {
     padding: 10px 15px 10px 0
 }
 fieldset>a[type="profile"]>img.icon {
