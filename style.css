@@ -765,6 +765,9 @@ div.cy-table>label {
     display: block;
     font-weight: bold
 }
+fieldset.left {
+    text-align: left;
+}
 .cytyle-faux div.cy-table>label {
     background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAXCAYAAADKmiUPAAAASklEQVQIHQ3BoRECARDAwCR3RT3t0ACWUhkEEoFgKIHf5Xq7vzuOC32+P1JpRlqjE7VLUzRKM1EzdKItKiklR9qWVEoJpYRezwd/hakIzN7IcU4AAAAASUVORK5CYII=');
     background-repeat: repeat-x no-repeat-y;
