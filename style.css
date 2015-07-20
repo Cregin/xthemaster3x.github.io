@@ -693,6 +693,18 @@ block>img.icon+div>div {
 fieldset>a>img.icon+div>div {
     min-height: 42px
 }
+.cytyle-faux block>div {
+    margin-left: 15px
+}
+.cytyle-flat block>div {
+    margin-left: 15px
+}
+.cytyle-faux block>div>div {
+    padding: 11px 15px 11px 0
+}
+.cytyle-flat block>div>div {
+    padding: 10px 15px 10px 0
+}
 .cytyle-faux fieldset>a>div {
     margin-left: 15px
 }
