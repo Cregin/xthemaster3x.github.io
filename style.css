@@ -436,9 +436,6 @@ panel>block>* {
     margin-top: 9px;
     margin-bottom: 9px
 }
-fieldset.left {
-    text-align: left;
-}
 fieldset>div>p,
 panel>block>p {
     text-align: center
