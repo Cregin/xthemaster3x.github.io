@@ -13,6 +13,23 @@ Author: jackhaal <j4ckhaal@gmail.com>
 Depiction: http://repo.tm3dev.com/depics/sounds.html
 Name: NoAnnoyingSounds
 
+Package: com.xtm3x.asquared
+Version: 0.0.1-3+debug
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.asquared_0.0.1-3+debug_iphoneos-arm.deb
+Size: 5774
+MD5sum: c06f2e3331c5169cb8f2a13972b812a2
+SHA1: 4c1c7a47d8d24cd1d920eef20d646cfdac16bfe0
+SHA256: 6af8b70dd802c94f2025c38aa207876040fce355ae87398e7900430aad428a19
+Section: Tweaks
+Description: Replace application backgrounds with your wallpaper.
+Author: xTheMaster3x <xtm3xyt@gmail.com>
+Depiction: http://repo.tm3dev.com/depics/asquared.html
+Name: Adaptive Apps
+
 Package: com.xtm3x.bork
 Version: 0.0.1-22
 Architecture: iphoneos-arm
