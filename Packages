@@ -47,6 +47,23 @@ Author: xTheMaster3x <xtm3xyt@gmail.com>
 Depiction: http://repo.tm3dev.com/depics/asquared.html
 Name: Adaptive Apps
 
+Package: com.xtm3x.asquared
+Version: 0.0.3-1+debug
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
+Installed-Size: 312
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.asquared_0.0.3-1+debug_iphoneos-arm.deb
+Size: 30788
+MD5sum: e3793a3ddc719185a3d1aab2561feea6
+SHA1: 1145067c8acd8aa20df4e73f9303bafaba3458ec
+SHA256: a7fb4abb1cf3a65c9ab070b5741487a853ed47bb4f8868676c26cb63ce764637
+Section: Tweaks
+Description: Replace application backgrounds with your wallpaper.
+Author: xTheMaster3x <xtm3xyt@gmail.com>
+Depiction: http://repo.tm3dev.com/depics/asquared.html
+Name: Adaptive Apps
+
 Package: com.xtm3x.bork
 Version: 0.0.1-22
 Architecture: iphoneos-arm
