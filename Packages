@@ -98,20 +98,38 @@ Depiction: http://repo.tm3dev.com/depics/dye.html
 Name: Dye
 
 Package: com.xtm3x.integrate
-Version: 0.0.1-6
+Version: 0.0.2
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 136
 Depends: mobilesubstrate
-Filename: ./debs/com.xtm3x.integrate_0.0.1-6_iphoneos-arm.deb
-Size: 4196
-MD5sum: 2b69da7050d6fef306d1a4d89d19c635
-SHA1: 9b63f05db8eda88a0928c251adaeffbd3695f40f
-SHA256: ab8e96d4908214937a19fb9481abdfa2ba0be6764629462033c49d081b21397c
+Filename: ./debs/com.xtm3x.integrate_0.0.2_iphoneos-arm.deb
+Size: 4184
+MD5sum: f0810d468268aeaede7b78a96ad24241
+SHA1: 68f0cb6ea237cbecb502ef8d7688f8bb2c24eef3
+SHA256: 583b9b2607ab4871cb2e52afeaeeee07a7cce7a278d20139185a1b40f3eedd8d
 Section: Tweaks
 Description: Remove table view separators.
 Author: xTheMaster3x
 Name: Integrate
+
+Package: com.xtm3x.noblur
+Version: 1.3-78
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
+Installed-Size: 480
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: ./debs/com.xtm3x.noblur_1.3-78_iphoneos-arm.deb
+Size: 92260
+MD5sum: f2789c6a8c4385de2e419a3ee7300dfb
+SHA1: 4d63c69df0dbfadc5b1d1681e6c3c871b72a17b8
+SHA256: e4890426e44bef0f495ebc963bcb64a6867b584a70ce3f743c43e34b123ef03e
+Section: Tweaks
+Description: Remove the blur effect in iOS 7/8
+Author: xTheMaster3x <xtm3xyt@gmail.com>
+Depiction: http://repo.tm3dev.com/depics/noblur.html
+Name: NoBlur
+Support: http://bugs.tm3dev.appspot.com
 
 Package: com.xtm3x.noblur
 Version: 1.3-69+debug
