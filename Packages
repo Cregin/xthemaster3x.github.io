@@ -82,16 +82,16 @@ Depiction: http://repo.tm3dev.com/depics/asquared.html
 Name: Adaptive Apps
 
 Package: com.xtm3x.bingbong
-Version: 1.1.1
+Version: 1.1.1~beta
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x
 Installed-Size: 148
 Depends: mobilesubstrate
-Filename: ./debs/com.xtm3x.bingbong_1.1.1_iphoneos-arm.deb
-Size: 14888
-MD5sum: 23e51c9a2bccb34923c85816d3adbfc7
-SHA1: 0f8a33e5ca4d9981e7b2492057d9e52c0cf0ffb2
-SHA256: ec4bdb54c44a0965009c175ac9e2784dc06063547303a88b07c9bd7b96554137
+Filename: ./debs/com.xtm3x.bingbong_1.1.1~beta_iphoneos-arm.deb
+Size: 14876
+MD5sum: 7a62bee15b3f0484a894d5a98021cb2c
+SHA1: 525d7ebd7b86ba9a290d26b7b2af79e8ad6890a2
+SHA256: 5a014b6268f17dafe79cc523f020cafa0074b1bca1500e0550fc4c1819072d65
 Section: Tweaks
 Description: In-App browser for the Messages app.
 Author: xTheMaster3x
