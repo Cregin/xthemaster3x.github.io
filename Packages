@@ -13,6 +13,23 @@ Author: jackhaal <j4ckhaal@gmail.com>
 Depiction: http://repo.tm3dev.com/depics/sounds.html
 Name: NoAnnoyingSounds
 
+Package: com.xtm3x.airconditioning
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.airconditioning_1.0_iphoneos-arm.deb
+Size: 5898
+MD5sum: 1f0aa273267b2e53dfec9d99bd76c414
+SHA1: 428c39d00e5cfe9cfa0660701d77ad93628e81c1
+SHA256: 3353f2097d4d72d0152f052955b117c277b32c4366db330ce451e9444b1e0279
+Section: Tweaks
+Description: Color Navigation Bars based on icon color.
+Author: xTheMaster3x
+Depiction: http://repo.tm3dev.com/depics/ac.html
+Name: Adaptive Bar
+
 Package: com.xtm3x.asquared
 Version: 0.0.2-1+debug
 Architecture: iphoneos-arm
