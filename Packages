@@ -340,6 +340,23 @@ Author: xTheMaster3x
 Name: ReplaceBlur
 
 Package: com.xtm3x.sixbar
+Version: 0.0.5-beta-2
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.sixbar_0.0.5-beta-2_iphoneos-arm.deb
+Size: 4726
+MD5sum: 551caa69f12c261cdd65b81b7ce3a913
+SHA1: d198293b73aceb95a399b7f0bce65914c326da2f
+SHA256: 0979d36aefb937430adf24a1c011775c002d57beb78f9f11199c2237b8afbc25
+Section: Tweaks
+Description: SixBar rewrite --superduperalpha--
+Author: xTheMaster3x <xtm3xyt@gmail.com>
+Depiction: http://repo.tm3dev.com/depics/sixbar.html
+Name: SixBar
+
+Package: com.xtm3x.sixbar
 Version: 0.0.4-451
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
