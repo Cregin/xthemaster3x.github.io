@@ -287,6 +287,23 @@ Depiction: http://repo.tm3dev.com/depics/noblur.html
 Name: NoBlur
 Support: http://bugs.tm3dev.appspot.com
 
+Package: com.xtm3x.noblur
+Version: 1.4-beta-2
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
+Installed-Size: 528
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: ./debs/com.xtm3x.noblur_1.4-beta-2_iphoneos-arm.deb
+Size: 101458
+MD5sum: b3c6aef511f6b930d19cf57da054b181
+SHA1: db7112d67df9bc19f97f834ed176a5ce9cf1db87
+SHA256: 4496340db8873932bd8201270f0eb74847870d312058fff41cc74636b53a9475
+Section: Tweaks
+Description: Remove the blur effect in iOS 7/8
+Author: xTheMaster3x <xtm3xyt@gmail.com>
+Depiction: http://repo.tm3dev.com/depics/noblur.html
+Name: NoBlur
+
 Package: com.xtm3x.noblurlite
 Version: 1.0-1
 Architecture: iphoneos-arm
