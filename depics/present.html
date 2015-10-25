@@ -20,7 +20,9 @@
 	</head>
 	<body class="pinstripe">
 		<panel>
-			<block id="version"></block>
+			<block data-min-ios="8.0" data-max-ios="9.0" class="prerequisite">
+				<p>Supports iOS 8.0 to 9.0.2</p>
+			</block>
 			<label>Info</label>
 			<block>
 				<p>No options to configure.</p>
@@ -46,6 +48,6 @@
 				</a>
 			</fieldset>
 		</panel>
-		<script type="text/javascript" src="http://repo.tm3dev.com/depics/js/version.js"></script>
+		<script src="js/iosver.js" async></script>
 	</body>
 </html>
