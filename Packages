@@ -252,6 +252,22 @@ Name: NoBlur
 Support: http://bugs.tm3dev.appspot.com
 
 Package: com.xtm3x.noblur
+Version: 1.4.5~beta-1
+Architecture: iphoneos-arm
+Maintainer: xTheMaster3x
+Installed-Size: 268
+Depends: mobilesubstrate
+Filename: ./debs/com.xtm3x.noblur_1.4.5~beta-1_iphoneos-arm.deb
+Size: 17764
+MD5sum: e567458b99aaaa774764552086ad372c
+SHA1: 6ba9f7a90425d07c22f98eb27705cf05a727b7a0
+SHA256: 6e6b43c664c2c41bde0cfa676c4e1476a3a378126da013e949bb1768d51ddae1
+Section: Tweaks
+Description: Removes iOS blur views.
+Author: xTheMaster3x
+Name: NoBlur
+
+Package: com.xtm3x.noblur
 Version: 1.3-69+debug
 Architecture: iphoneos-arm
 Maintainer: xTheMaster3x <xtm3xyt@gmail.com>
